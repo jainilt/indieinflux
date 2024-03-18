@@ -10,9 +10,9 @@ function Black_denim_jacket_component() {
         <>
       <div>
         <Rotate360Degree_black_denim_jacket/>
-        <Btn_grp/>
-        <Product_Detail/>
-        <Human_slider/>
+        {/* <Product_Detail/> */}
+        {/* <Btn_grp/> */}
+        {/* <Human_slider/> */}
       </div>
         </>
     )

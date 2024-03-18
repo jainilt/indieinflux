@@ -14,6 +14,10 @@ import Rotate360Degree from './Rotate360Degree_blue_denim_jacket'
 import Btn_grp from './Btn_grp'
 import Product_Detail from './Product_Detail'
 import Hover_Images from './Hover_Images'
+import Cart from './Cart'
+import Black_denim_jacket_component from './Black_denim_jacket_component'
+import Archive_move_image from './Archive_move_image'
+import Signup from './Signup'
 function Navigation() {
   return (
     <>
@@ -25,11 +29,15 @@ function Navigation() {
       <ul>
         <li>
           <Link className='nav1' to="/Drop6_home"><Button variant="secondary">Drop6</Button></Link>
-          <Link className='nav1' to="/Btn_grp"><Button variant="secondary">Btn_grp</Button></Link>
-          <Link className='nav1' to="/Product_Detail"><Button variant="secondary">Product_Detail</Button></Link>
+          <Link className='nav1' to="/Black_denim_jacket_component"><Button variant="secondary">Black_denim_jacket_component</Button></Link>
+          <Link className='nav1' to="/Archive_move_image"><Button variant="secondary">Upcoming</Button></Link>
+          {/* <Link className='nav1' to="/Product_Detail"><Button variant="secondary">Product_Detail</Button></Link> */}
+          <Link className='nav1' to="/Hover_Images"><Button variant="secondary">Archive</Button></Link>
+          <Link className='nav1' to="/Signup"><Button variant="secondary">Login</Button></Link>
+          {/* <Link className='nav1' to="/Other_colors"><Button variant="secondary">Other_colors</Button></Link> */}
           {/* <Link className='nav1' to="/Drop6_360_Compo"><Button variant="secondary">Drop6</Button></Link>
           <Link className='nav1' to="/Drop6_360_Compo"><Button variant="secondary">Drop6</Button></Link> */}
-          <Link className='nav1' to="/Hover_Images"><Button variant="secondary">Archieve</Button></Link>
+          {/* <Link className='nav1' to="/Cart"><Button variant="secondary">Cart</Button></Link> */}
         </li>
       </ul>
     </nav>
@@ -43,10 +51,15 @@ function Navigation_btns() {
           <Routes>
             
             <Route path="/Drop6_home" element={<Drop6_home />} />
-            <Route path="/*" element={<Navigation/>} />
+            <Route path="/Black_denim_jacket_component" element={<Black_denim_jacket_component />} />
             <Route path="/Product_Detail" element={<Product_Detail />} />
-            <Route path="/Drop6_360_Compo" element={<Drop6_360_Compo />} />
+            <Route path="/Signup" element={<Signup />} />
             <Route path="/Hover_Images" element={<Hover_Images />} />
+            <Route path="/Archive_move_image" element={<Archive_move_image />} />
+            {/* <Route path="/Other_colors" element={<Other_colors />} /> */}
+            <Route path="/Drop6_360_Compo" element={<Drop6_360_Compo />} />
+            <Route path="/Cart" element={<Cart />} />
+            <Route path="/*" element={<Navigation/>} />
             {/* <Route path="/VideoCompo" element={<VideoCompo />} /> */}
             <Route
               path="/*"

@@ -7,6 +7,13 @@ function Archive_move_image() {
     <div className='arch_img'>
       <img src='src/img/download - 2024-03-06T152714.078.png'/>
     </div>
+    <div className='arch_img_8'>
+      <img src='src/img/download (77).png'/>
+
+    </div>
+    <div className='arch_img_7'>
+      <img src='src/img/download (76).png'/>
+    </div>
     <div className='arch_img_2'>
       <img src='src/img/download - 2024-03-06T152649.646.png'/>
     </div>
@@ -16,6 +23,7 @@ function Archive_move_image() {
     <div className='arch_img_4'>
       <img src='src/img/download (78).png'/>
     </div>
+    
     <div className='arch_img_5'>
       <div className='ptag'>
       <img src='src/img/download (74).png'/>
@@ -28,9 +36,8 @@ function Archive_move_image() {
     <div className='arch_img_7'>
       <img src='src/img/download (76).png'/>
     </div>
-    <div className='arch_img_8'>
-      <img src='src/img/download (77).png'/>
-    </div>
+   
+    
     <div className='arch_img_9'>
       <img src='src/img/download (78).png'/>
     </div>
@@ -39,6 +46,9 @@ function Archive_move_image() {
     </div>
     <div className='arch_img_11'>
       <img src='src/img/download (80).png'/>
+    </div>
+    <div className='arch_img_12'>
+      <img src='src/img/download (81).png'/>
     </div>
     </div>
     </>

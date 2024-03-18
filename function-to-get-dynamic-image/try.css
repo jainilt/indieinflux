@@ -1,0 +1,16 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+.container img{
+    width: 8%;
+}
+
+#measurementImageContainer {
+    margin-top: 20px;
+    
+}
+#measurementImageContainer img{
+    width: 250px;
+    
+}

@@ -5,6 +5,7 @@ import './App.css'
 import Archive_move_image from './Components/Archive_move_image';
 import Black_denim_jacket_component from './Components/Black_denim_jacket_component';
 import Sizing_chart_drop_down from './Components/Btn_grp';
+import Cart from './Components/Cart';
 import Drop6_360_Compo from './Components/Drop6_360_Compo';
 import Hover_Images from './Components/Hover_Images';
 import Human_slider from './Components/Human_slider';
@@ -28,20 +29,24 @@ import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { BrowserRouter as Router } from 'react-router-dom';
+import Signup from './Components/Signup';
+import Styled_With from './Components/Styled_With';
+// import Product_Detail_GSAP from './Components/Try_gsap';
 function App() {
 
   return (
     <>
-    <Archive_move_image/>
+    {/* <Archive_move_image/> */}
     {/* <Black_denim_jacket_component/> */}
     {/* <Sizing_chart_drop_down/> */}
+    {/* <Cart/> */}
     {/* <Drop6_360_Compo/> */}
     {/* <Hover_Images/> */}
     {/* <Human_slider/> */}
     {/* <Logo/> */}
     {/* <Main_home_Nav_Btn/> */}
     {/* <Nav_bar/> */}
-    {/* <Navigation_btns/> */}
+    <Navigation_btns/>
     {/* <Drop6_home/>            error            */}
     <Router>
       {/* <Other_colors /> */}
@@ -55,6 +60,9 @@ function App() {
     {/* <Sizing_chart_Btn_grp/> */}
     {/* <Swiper_human/> */}
     {/* <VideoCompo/> */}
+    {/* <Signup/> */}
+    {/* <Styled_With/> */}
+    {/* <Product_Detail_GSAP/> */}
     </Router>
     </>
     

@@ -9,8 +9,8 @@ import Product_Detail from './Product_Detail';
 import Human_slider from './Human_slider';
 import Random_compo from './Refine_Click_Dropdown';
 import Drop6_360_Compo from './Drop6_360_Compo';
-
-function Product_drop_djsw(){
+import Rotate360Degree_black_denim_jacket from './Rotate360Degree_black_denim_jacket';
+function Navigation(){
   return(
     <>
      <div className='logoandbtn'>
@@ -23,7 +23,7 @@ function Product_drop_djsw(){
 
       <div className='Drop6Parent'>
         <Link to="/Drop6_360_Compo"><div className='drop1 hover_jacket_reveal '><img className='hide' src='src/img/download (1).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal2'><img className='hide' src='src/img/download (2).png' alt=''/></div></Link>
+        <Link to="/Rotate360Degree_black_denim_jacket"><div className='drop1 hover_jacket_reveal2'><img className='hide vg' src='src/img/download (2).png' alt=''/></div></Link>
         <Link to="/Logo"><div className='drop1 hover_jacket_reveal3'><img className='hide' src='src/img/download (3).png' alt=''/></div></Link>
         <Link to="/Logo"><div className='drop1 hover_jacket_reveal4'><img className='hide' src='src/img/download (4).png' alt=''/></div></Link>
         <Link to="/Logo"><div className='drop1 hover_jacket_reveal5'><img className='hide' src='src/img/download (5).png' alt=''/></div></Link>
@@ -67,11 +67,11 @@ function Drop6_home() {
           <Routes>
             
             <Route path="/Logo" element={<Drop6_360_Compo />} />
-            <Route path="/Other_colors" element={<Other_colors />} />
+            <Route path="/Rotate360Degree_black_denim_jacket" element={<Rotate360Degree_black_denim_jacket />} />
             <Route path="/Rotate360Degree" element={<Rotate360Degree />} /> 
             <Route
               path="/*"
-              element={<Product_drop_djsw />}
+              element={<Navigation />}
             />
           </Routes>
     </>

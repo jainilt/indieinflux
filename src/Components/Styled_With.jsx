@@ -1,47 +1,37 @@
 // Other_colors.js
+import React from 'react';
 import { Routes, Route, Link,Router } from 'react-router-dom';
 import Drop6_360_Compo from './Drop6_360_Compo';
 import Rotate360Degree_black_denim_jacket from './Rotate360Degree_black_denim_jacket';
 import Rotate360Degree from './Rotate360Degree_blue_denim_jacket';
 import Logo from './Logo';
 import Size_Btn from './Size_Btn';
-import React, { useEffect } from 'react';
-import { gsap } from 'gsap';
-import { useGSAP } from '@gsap/react';
 function Navigation() {
-  useGSAP(() => {
-    
-        gsap.from(".product-vars img", {
-            duration: 0.5,
-            y: 50,
-            stagger: 0.2,
-            delay: 0.75
-        })
-        gsap.from(".size-btn", {
-            duration: 0.3,
-            scale: 0,
-            delay: 1.25
-        })
-  });
   return (
-    <nav className='navvvvv'>
+    <>
+    <div className='ii-styled-with-title'>styled with  ↓</div>
+        <nav className='navvvvv'>
     <ul>
       <li>
-        <div className="product-vars">
-          <Link className='nav1 item-selected' to="/Drop6_360_Compo">
-            <img className="product-vars-img" src="/src/img/entire-studios-moto-jacket-surface-wave-shadow.png" alt="" />
+        <div className="product-vars product-vars-styled-with">
+          <Link className='nav1' to="/Drop6_360_Compo">
+            <img className="product-vars-img" src="src/img/styledwith1.png" alt="" />
           </Link>
           <Link className='nav1' to="/Rotate360Degree_black_denim_jacket"> 
-            <img className="product-vars-img" src="/src/img/entire-studios-moto-jacket-magnetite-shadow.png" alt="" />
+            <img className="product-vars-img" src="src/img/styledwith2.png" alt="" />
+          </Link>
+          <Link className='nav1' to="/Rotate360Degree_black_denim_jacket"> 
+            <img className="product-vars-img" src="src/img/styledwith3.png" alt="" />
           </Link>
         </div>
       </li>
     </ul>
   </nav>
+    </>
   );
 }
 
-function Other_colors() {
+function Styled_With() {
   return (
     <>
     
@@ -54,4 +44,4 @@ function Other_colors() {
   )
 }
 
-export default Other_colors;
+export default Styled_With;

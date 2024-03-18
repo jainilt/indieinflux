@@ -3,8 +3,44 @@ import Human_slider from './Human_slider'
 import Other_colors from './Other_colors'
 import Size_Btn from './Size_Btn'
 import { Routes, Route, Link } from 'react-router-dom';
-
+import  { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { TextPlugin } from 'gsap/all';
 function Product_Detail() {
+  useGSAP(() => {
+    
+    gsap.from(".title-text", {
+       x:-80,
+       opacity: 0,
+       duration: 2,
+    })
+    gsap.to(".title-text", {
+        opacity: 1,
+        x: 0,
+        duration: 2
+    })
+    gsap.from(".pd", {
+       x:-80,
+       opacity: 0,
+       duration: 2,
+    })
+    gsap.to(".pd", {
+        opacity: 1,
+        x: 0,
+        duration: 2
+    })
+    gsap.from(".product-price", {
+      x:-80,
+      opacity: 0,
+      duration: 2,
+   })
+    gsap.to(".product-price", {
+        opacity: 1,
+        x: 0,
+        duration: 2
+    })
+});
   return (
     <>
     <div className='product-details-compo'>
@@ -15,13 +51,13 @@ function Product_Detail() {
         <span>Rs.1899/-</span>
       </div>
       <div className='product-description'>
-        <div>- 100% cotton Japanese selvedge denim</div>
-        <div>- 13.75oz</div>
-        <div>- Waist pockets</div>
-        <div>- Moto panel detailing</div>
-        <div>- Ykk metal zips</div>
-        <div>- Snap dome collar</div>
-      <Other_colors />
+        <div className='pd'>- 100% cotton Japanese selvedge denim</div>
+        <div className='pd'>- 13.75oz</div>
+        <div className='pd'>- Waist pockets</div>
+        <div className='pd'>- Moto panel detailing</div>
+        <div className='pd'>- Ykk metal zips</div>
+        <div className='pd'>- Snap dome collar</div>
+      <Other_colors />  
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <Size_Btn/>
       </div>

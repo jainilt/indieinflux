@@ -3,7 +3,8 @@ import Rotate360Degree from './Rotate360Degree_blue_denim_jacket'
 import Btn_grp from './Btn_grp'
 import Product_Detail from './Product_Detail'
 import { Routes, Route, Link } from 'react-router-dom';
-
+import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
 function Drop6_360_Compo() {
   return (
     <div>
