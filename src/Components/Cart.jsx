@@ -3,14 +3,61 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate from 'reac
 import Btn_grp from "./Btn_grp";
 import Sizing_chart_Btn_grp from "./Sizing_chart_Btn_grp";
 import Logo from "./Logo";
+import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { TextPlugin } from 'gsap/all';
+import SplitType from 'split-type'
 
 function Cart() {
     const navigate = useNavigate(); // Use useNavigate hook to get the navigation function
-
+    
     const handleBackClick = () => {
         navigate(-1); // This will navigate back to the previous page
     };
-
+    useGSAP(() => {
+    
+        gsap.from(".cart-header", {
+           y:-20,
+           opacity: 0,
+           duration: 2,
+        })
+        gsap.from(".ii-cart-inner-section img", {
+           x:-20,
+           opacity: 0,
+           duration: 2,
+           scale: -1
+        })
+        gsap.from(".cart-p", {
+           x:20,
+           opacity: 0,
+           duration: 2,
+        })
+        gsap.from(".ii-cart-inner-section", {
+           y:20,
+           opacity: 0,
+           duration: 2,
+        })
+        const myText = new SplitType('.ii-cart-footer');
+    gsap.to('.gsapanimate',{
+        y:0,
+        stagger: 0.05,
+        delay: 0.2,
+        duration: .1
+    })
+    gsap.to('.ii-cart-subtotal__title',{
+        y:0,
+        stagger: 0.05,
+        delay: 0.2,
+        duration: .1
+    })
+    gsap.to('.sunttlamount',{
+        y:0,
+        stagger: 0.05,
+        delay: 0.2,
+        duration: .1
+    })
+    });
+    
     return (
         <>
             <div className="all-items-of-cart">
@@ -146,15 +193,33 @@ function Cart() {
                     </div>
                     <div className="ii-cart-footer">
                         <div className="ii-cart-subtotal">
-                            <span className="ii-cart-subtotal__title">Subtotal </span>
+                            <span className="ii-cart-subtotal__title">S </span>
+                            <span className="ii-cart-subtotal__title">u </span>
+                            <span className="ii-cart-subtotal__title">b </span>
+                            <span className="ii-cart-subtotal__title">t </span>
+                            <span className="ii-cart-subtotal__title">o </span>
+                            <span className="ii-cart-subtotal__title">t </span>
+                            <span className="ii-cart-subtotal__title">a </span>
+                            <span className="ii-cart-subtotal__title">l   </span> 
                             <span className="ii-cart-subtotal__price">
-                                Rs. 65,700/-
-                                <span className="ii-cart-currency"> INR</span>
+                               <span className="sunttlamount">R</span>  
+                               <span className="sunttlamount">s</span>
+                               <span className="sunttlamount">.</span>
+                               <span className="sunttlamount">6</span>
+                               <span className="sunttlamount">5</span>
+                               <span className="sunttlamount">,</span>
+                               <span className="sunttlamount">7</span>
+                               <span className="sunttlamount">0</span>
+                               <span className="sunttlamount">0</span>
+                               <span className="sunttlamount">/-</span>
+                                <span className="ii-cart-currency gsapanimate"> I</span>
+                                <span className="ii-cart-currency gsapanimate"> N</span>
+                                <span className="ii-cart-currency gsapanimate"> R</span>
                             </span>
                         </div>
                         <div className="ii-shipping-note">shipping calculated at checkout.</div>
-                        <div className="ii-shipping-note">Please note duties &amp; taxes are not calculated at the checkout and it is the customers responsibility to pay international customs on arrival.</div>
-                        <div className="ii-shipping-note">No returns or exchanges on discounted / sale items.</div>
+                        <div className="ii-shipping-note"><p className="textforgsap">Please note duties & taxes are not calculated at the checkout and it is the customers responsibility to pay international customs on arrival.</p></div>
+                        <div className="ii-shipping-note textforgsaptwo">No returns or exchanges on discounted / sale items.</div>
                     </div>
 
                 </div>

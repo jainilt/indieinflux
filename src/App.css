@@ -1753,6 +1753,16 @@ drop6text.text-drop6-in-navbar {
 }
 .ii-cart-currency{
   text-transform: uppercase;
+  transform: translateY(-50px);
+  transition: transform .5s;
+}
+.ii-cart-subtotal__title{
+  transform: translateY(-50px);
+  transition: transform .5s;
+}
+.sunttlamount{
+  transform: translateY(-50px);
+  transition: transform .5s;
 }
 .parent-cart-all{
   margin: 0 auto;
@@ -1866,3 +1876,27 @@ button.active { background-color: white; }
   position: absolute;
   left: -70px;
 } */
+.textforgsap{
+  border-right: 5px solid;
+  height: 18px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 10s, cursor .4s step-end infinite alternate;
+}
+.textforgsaptwo{
+  border-right: 5px solid;
+  height: 18px;
+  width: 42%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 10s, cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+  50%{
+    border-color: transparent;
+  }
+}
+@keyframes  typing{
+  from{width: 0;}
+}

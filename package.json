@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
     "sort-by": "^0.0.2",
+    "split-type": "^0.3.4",
     "swiper": "^11.0.7"
   },
   "devDependencies": {
