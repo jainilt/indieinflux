@@ -22,7 +22,7 @@ function Navigation() {
       stagger: 0.1,
       });
       gsap.to(button, {
-        duration: 3, 
+        duration: 3,
       y: 0, 
       opacity: 1, 
       ease: 'power3.inOut', 
