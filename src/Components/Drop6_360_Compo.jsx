@@ -5,6 +5,7 @@ import Product_Detail from './Product_Detail'
 import { Routes, Route, Link } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
+import Styled_With from './Styled_With_blue';
 function Drop6_360_Compo() {
   return (
     <div>
@@ -13,6 +14,8 @@ function Drop6_360_Compo() {
       <Btn_grp/>
       </div>
       <Product_Detail/>
+      
+      
     </div>
   )
 }

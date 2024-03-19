@@ -627,12 +627,14 @@ button.size-btn i {
   position: fixed;
   top: 61px;
   display: flex;
-  left: 94.5%;
+  left: 93.5%;
+  border: 1px solid black;
+  background-color: #a3a49f !important;
 }
 #myDropdown {
   top: 66px;
   color: #000;
-  pointer-events: none;
+  /* pointer-events: none; */
   /* border: 1px solid black; */
   /* min-width: 150px; */
   /* position: absolute; */
@@ -641,6 +643,7 @@ button.size-btn i {
 }
 #myDropdown li{
   list-style: none;
+  cursor: pointer;
 }
 
 /* #myDropdown-size {

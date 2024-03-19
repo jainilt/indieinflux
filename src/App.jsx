@@ -30,7 +30,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Signup from './Components/Signup';
-import Styled_With from './Components/Styled_With';
+import Styled_With from './Components/Styled_With_blue';
 import Btn_grp_for_black_denim from './Components/Btn_grp_for_black_denim';
 // import Product_Detail_GSAP from './Components/Try_gsap';
 function App() {

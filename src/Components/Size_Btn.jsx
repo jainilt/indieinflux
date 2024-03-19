@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Cart from './Cart';
-import Styled_With from './Styled_With';
+import Styled_With from './Styled_With_blue';
 
 function Navigation() {
   const [selectedSize, setSelectedSize] = useState(''); // State to track selected size

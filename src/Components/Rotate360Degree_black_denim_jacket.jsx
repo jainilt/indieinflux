@@ -7,6 +7,7 @@ import Product_Detail from './Product_Detail'
 import Human_slider from './Human_slider';
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
+import Styled_With_black from './Styled_with_black';
 
 function Rotate360Degree_black_denim_jacket() {
 
@@ -56,7 +57,7 @@ function Rotate360Degree_black_denim_jacket() {
         </div>
         
       </div>
-            <Product_Detail/> 
+            {/* <Product_Detail/>  */}
             {/* <Human_slider/> */}
     </>
   );

@@ -5,6 +5,7 @@ import Size_Btn from './Size_Btn'
 import { Routes, Route, Link } from 'react-router-dom';
 import  { useEffect } from 'react';
 import { gsap } from 'gsap';
+import Styled_With from './Styled_With_blue';
 import { useGSAP } from '@gsap/react';
 import { TextPlugin } from 'gsap/all';
 function Product_Detail() {
@@ -60,6 +61,7 @@ function Product_Detail() {
       <Other_colors />  
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <Size_Btn/>
+    <Styled_With/>
       </div>
     </div>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

@@ -25,10 +25,7 @@ const Random_compo = () => {
     <div className="dropdown">
       <button onClick={toggleDropdown} className="dropbtn">Collection</button>
       <div id="myDropdown" className={`dropdown-content ${showDropdown ? 'show' : ''}`}>
-       <ul className='collection-dropdown-ul'>
-        
-        <li className='collection-dropdown-li'>Drop6</li>
-       </ul>
+        <button onClick={toggleDropdown} className="collection-dropdown-li">Drop6</button>
       </div>
     </div>
   );

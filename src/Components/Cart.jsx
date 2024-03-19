@@ -15,7 +15,7 @@ function Cart() {
         navigate(-1); // This will navigate back to the previous page
     };
     const handleBackClick2 = () => {
-        navigate(-2); // This will navigate back to the previous page
+        navigate(-1); // This will navigate back to the previous page
     };
     useGSAP(() => {
     

@@ -12,7 +12,11 @@ function Black_denim_jacket_component() {
       <div>
         <Rotate360Degree_black_denim_jacket/>
         {/* <Product_Detail/> */}
-        <Btn_grp/>
+        <div className='btn-grp-drop-360-compo'>
+      <Btn_grp/>
+      </div>
+      <Product_Detail/> 
+
         {/* <Human_slider/> */}
       </div>
         </>
