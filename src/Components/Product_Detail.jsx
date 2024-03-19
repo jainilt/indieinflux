@@ -61,11 +61,11 @@ function Product_Detail() {
       <Other_colors />  
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <Size_Btn/>
-    <Styled_With/>
+    {/* <Styled_With/> */}
       </div>
     </div>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <Human_slider/>
+    {/* <Human_slider/> */}
     </>
   )
 }

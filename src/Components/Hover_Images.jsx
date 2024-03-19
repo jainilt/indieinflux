@@ -1,9 +1,10 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import Archive_move_image from './Archive_move_image';
-const Hover_Images = () => {
+function Navigation() {
   return (
     <>
+    <Link to="/"><button className='btn1 ph-bold brd homebtnarchive'>Home</button></Link>
      <div className='arc'>
      <div className='hoverEffect'>
         <div className="imggg">
@@ -100,7 +101,25 @@ const Hover_Images = () => {
       </div>
     </div>
      </div>
-      {/* <Archive_move_image/> */}
+   
+    </>
+  );
+}
+
+
+
+const Hover_Images = () => {
+  return (
+    <>
+    
+    <Routes>
+            
+            
+            <Route
+              path="/*"
+              element={<Navigation />}
+            />
+          </Routes>
     </>
   );
 };

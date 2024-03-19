@@ -6,14 +6,20 @@ import { Routes, Route, Link } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
 import Styled_With from './Styled_With_blue';
+import Human_slider from './Human_slider';
+import Nav_bar from './Nav_bar';
 function Drop6_360_Compo() {
   return (
     <div>
+      <Nav_bar/>
       <Rotate360Degree/>
       <div className='btn-grp-drop-360-compo'>
       <Btn_grp/>
       </div>
       <Product_Detail/>
+    <Human_slider/>
+    <Styled_With/>
+
       
       
     </div>

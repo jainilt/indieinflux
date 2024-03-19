@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom';
 function Nav_bar() {
   return (
-    <div className="nav">
+    <div className="nav navbarclass">
             <div className="btn-group">
                 <button className='btn1'> Drop 6</button>
                 <button className="active"><i className="ph-bold ph-arrow-down"></i>Sizing chart</button>
