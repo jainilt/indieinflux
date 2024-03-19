@@ -14,7 +14,7 @@ function Navigation(){
   return(
     <>
      <div className='logoandbtn'>
-    <button className="active fixedinfobtn"><i className="ph-bold ph-arrow-down"></i> Info</button>
+    {/* <button className="active fixedinfobtn"><i className="ph-bold ph-arrow-down"></i> Info</button> */}
     {/* <button className="active fixedrefinebtn"><i className="ph-bold ph-arrow-down"></i> Refine</button> */}
     {/* <Refine_Click_Dropdown/> */}
     <Logo/>
@@ -56,7 +56,7 @@ function Navigation(){
         <Link to="/Logo"><div className='drop1 hover_jacket_reveal24'><img className='hide' src='src/img/download (28).png' alt=''/></div></Link>
         <Link to="/Logo"><div className='drop1 hover_jacket_reveal25'><img className='hide' src='src/img/download (29).png' alt=''/></div></Link>
       </div>
-      <Refine_Click_Dropdown/>
+      {/* <Refine_Click_Dropdown/> */}
     {/* <Logo/> */}
     </>
   )
