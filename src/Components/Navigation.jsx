@@ -16,7 +16,7 @@ function Navigation(){
      <div className='logoandbtn'>
     <button className="active fixedinfobtn"><i className="ph-bold ph-arrow-down"></i> Info</button>
     {/* <button className="active fixedrefinebtn"><i className="ph-bold ph-arrow-down"></i> Refine</button> */}
-    <Refine_Click_Dropdown/>
+    {/* <Refine_Click_Dropdown/> */}
     <Logo/>
 
     </div>

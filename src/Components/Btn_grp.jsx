@@ -2,6 +2,7 @@ import React from 'react'
 import Sizing_chart_Btn_grp from './Sizing_chart_Btn_grp'
 import { Routes, Route, Link } from 'react-router-dom';
 import Cart from './Cart';
+import Random_compo from './Refine_Click_Dropdown';
 function Navigation() {
   return (
     <>
@@ -16,7 +17,7 @@ function Navigation() {
     
     <div className="btn-group-second">
       <button className='btn1 ph-bold ph-currency-inr brd inr'>Inr</button>
-      <button className='btn1 ph-bold ph-bag brd bag'>Collection</button>
+      <Random_compo/>
     <Link to="/Cart"><button className='btn1 ph-bold brd collection-left'>Bag</button></Link>
       <br />
       {/* <Sizing_chart_Btn_grp/> */}
