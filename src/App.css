@@ -643,14 +643,20 @@ button.size-btn i {
   list-style: none;
 }
 
-#myDropdown-size {
+/* #myDropdown-size {
   top: -350px;
   color: #000;
   pointer-events: none;
   position: absolute;
   left: -70px;
+} */
+#myDropdown-size {
+  top: 78px;
+  color: #000;
+  pointer-events: none;
+  /* position: absolute; */
+  left: 59px;
 }
-
 .bagbtn {
   border: 1px solid #000;
   box-shadow: none !important;
@@ -1910,4 +1916,11 @@ button.active { background-color: white; }
 }
 @keyframes  typing{
   from{width: 0;}
+}
+.blackdenimdropdownsize{
+  top: -1302px;
+  color: #000;
+  pointer-events: none;
+  position: absolute;
+  left: -70px;
 }

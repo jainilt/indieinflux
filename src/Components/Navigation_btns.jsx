@@ -47,7 +47,6 @@ function Navigation() {
 function Navigation_btns() {
     return (
     
-        <Router>
           <Routes>
             
             <Route path="/Drop6_home" element={<Drop6_home />} />
@@ -66,7 +65,6 @@ function Navigation_btns() {
               element={<Navigation />}
             />
           </Routes>
-        </Router>
         
       );
 }

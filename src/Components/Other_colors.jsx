@@ -3,6 +3,7 @@ import { Routes, Route, Link,Router } from 'react-router-dom';
 import Drop6_360_Compo from './Drop6_360_Compo';
 import Rotate360Degree_black_denim_jacket from './Rotate360Degree_black_denim_jacket';
 import Rotate360Degree from './Rotate360Degree_blue_denim_jacket';
+import Black_denim_jacket_component from './Black_denim_jacket_component';
 import Logo from './Logo';
 import Size_Btn from './Size_Btn';
 import React, { useEffect } from 'react';
@@ -17,11 +18,11 @@ function Navigation() {
             stagger: 0.2,
             delay: 0.75
         })
-        gsap.from(".size-btn", {
-            duration: 0.3,
-            scale: 0,
-            delay: 1.25
-        })
+        // gsap.from(".size-btn", {
+        //     duration: 0.3,
+        //     scale: 0,
+        //     delay: 1.25
+        // })
   });
   return (
     <nav className='navvvvv'>
@@ -31,7 +32,7 @@ function Navigation() {
           <Link className='nav1 item-selected' to="/Drop6_360_Compo">
             <img className="product-vars-img" src="/src/img/entire-studios-moto-jacket-surface-wave-shadow.png" alt="" />
           </Link>
-          <Link className='nav1' to="/Rotate360Degree_black_denim_jacket"> 
+          <Link className='nav1' to="/Black_denim_jacket_component"> 
             <img className="product-vars-img" src="/src/img/entire-studios-moto-jacket-magnetite-shadow.png" alt="" />
           </Link>
         </div>
@@ -47,7 +48,7 @@ function Other_colors() {
     
      <Routes>
         <Route path="/Drop6_360_Compo" element={<Drop6_360_Compo/>} />
-        <Route path="/Rotate360Degree_black_denim_jacket" element={<Rotate360Degree_black_denim_jacket/>} />
+        <Route path="/Black_denim_jacket_component" element={<Black_denim_jacket_component/>} />
         <Route path="/*" element={<Navigation />} />
       </Routes>
     </>

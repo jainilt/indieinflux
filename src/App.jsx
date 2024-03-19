@@ -31,13 +31,15 @@ import { useGSAP } from "@gsap/react";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Signup from './Components/Signup';
 import Styled_With from './Components/Styled_With';
+import Btn_grp_for_black_denim from './Components/Btn_grp_for_black_denim';
 // import Product_Detail_GSAP from './Components/Try_gsap';
 function App() {
 
   return (
     <>
+    <Router>
     {/* <Archive_move_image/> */}
-    {/* <Black_denim_jacket_component/> */}
+    {/* <Black_denim_jacket_component/>  */}
     {/* <Sizing_chart_drop_down/> */}
     {/* <Cart/> */}
     {/* <Drop6_360_Compo/> */}
@@ -47,12 +49,11 @@ function App() {
     {/* <Main_home_Nav_Btn/> */}
     {/* <Nav_bar/> */}
     <Navigation_btns/>
-    {/* <Drop6_home/>            error            */}
-    <Router>
+    {/* <Drop6_home/>                        */}
       {/* <Other_colors /> */}
     {/* <Other_products/> */}
     {/* <Product_Detail/> */}
-    {/* <Random_compo/>         error */}
+    {/* <Random_compo/>          */}
     {/* <Right_img_sticky/> */}
     {/* <Rotate360Degree_black_denim_jacket/> */}
     {/* <Rotate360Degree/> */}
@@ -63,6 +64,7 @@ function App() {
     {/* <Signup/> */}
     {/* <Styled_With/> */}
     {/* <Product_Detail_GSAP/> */}
+    {/* <Btn_grp_for_black_denim/> */}
     </Router>
     </>
     

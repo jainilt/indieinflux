@@ -59,6 +59,12 @@ function Cart() {
         delay: 0.2,
         duration: .1
     })
+    gsap.from('.cart-forgsap',{
+        y:50,
+        stagger: 0.05,
+        delay: 0.2,
+        duration: 1
+    })
     });
     
     return (
@@ -227,7 +233,7 @@ function Cart() {
                     </div>
 
                 </div>
-                <button className=" ph-bold ph-arrow-right brd chekcout-cart-btn"> Checkout</button>
+                <button className=" ph-bold ph-arrow-right brd chekcout-cart-btn cart-forgsap"> Checkout </button>
             </div>
 
             

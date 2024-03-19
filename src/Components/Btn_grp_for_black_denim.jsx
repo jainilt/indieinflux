@@ -3,13 +3,11 @@ import Sizing_chart_Btn_grp from './Sizing_chart_Btn_grp'
 import { Routes, Route, Link } from 'react-router-dom';
 import Cart from './Cart';
 import Random_compo from './Refine_Click_Dropdown';
-import Sizing_dropdown_for_black_denim from './Sizing_dropdown_for_black_denim';
 function Navigation() {
   return (
     <>
     
     <div className='scbg'><Sizing_chart_Btn_grp /></div>
-    <Sizing_dropdown_for_black_denim/>
 
 <div>
   <div className="btngrp">
@@ -30,7 +28,7 @@ function Navigation() {
   );
 }
 
-function Btn_grp() {
+function Btn_grp_for_black_denim() {
   return (
 
     <>
@@ -46,4 +44,4 @@ function Btn_grp() {
   )
 }
 
-export default Btn_grp
+export default Btn_grp_for_black_denim
