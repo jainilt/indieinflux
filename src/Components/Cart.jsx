@@ -14,6 +14,9 @@ function Cart() {
     const handleBackClick = () => {
         navigate(-1); // This will navigate back to the previous page
     };
+    const handleBackClick2 = () => {
+        navigate(-2); // This will navigate back to the previous page
+    };
     useGSAP(() => {
     
         gsap.from(".cart-header", {
@@ -64,8 +67,9 @@ function Cart() {
                 <Logo />
                 <div className="btn-group-second1">
                     <button className="ph-bold ph-arrow-left brd back-cart" onClick={handleBackClick}> Back</button>
-                    <button className="brd browse-cart">Browse</button>
-                    <button className="cartbag">Bag</button>
+                    <button className="brd browse-cart" onClick={handleBackClick2}> Browse</button>
+                    {/* <button className=""></button> */}
+                    {/* <button className="cartbag">Bag</button> */}
                     <br />
                     {/* <Sizing_chart_Btn_grp/> */}
                 </div>

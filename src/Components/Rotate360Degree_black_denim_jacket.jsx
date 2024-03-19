@@ -5,8 +5,11 @@ import Drop6_360_Compo from './Drop6_360_Compo';
 import Btn_grp from './Btn_grp';
 import Product_Detail from './Product_Detail'
 import Human_slider from './Human_slider';
+import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 function Rotate360Degree_black_denim_jacket() {
+
   const [currentImageIndex, setCurrentImageIndex] = useState(1);
   const totalImages = 8;
   const [isHovered, setIsHovered] = useState(false);
@@ -28,6 +31,7 @@ function Rotate360Degree_black_denim_jacket() {
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
+ 
 
   return (
     <>
