@@ -19,6 +19,8 @@ import Black_denim_jacket_component from './Black_denim_jacket_component'
 import Archive_move_image from './Archive_move_image'
 import Signup from './Signup'
 import Uniform from './Uniform'
+import Uniform_hoodie_brown from './Uniform_hoodie_brown'
+import Uniform_hoodie_black from './Uniform_hoodie_black'
 function Navigation() {
   return (
     <>
@@ -36,6 +38,8 @@ function Navigation() {
           <Link className='nav1' to="/Hover_Images"><Button variant="secondary">Upcoming</Button></Link>
           <Link className='nav1' to="/Signup"><Button variant="secondary">Login</Button></Link>
           <Link className='nav1' to="/Uniform"><Button variant="secondary">Uniform</Button></Link>
+          <Link className='nav1' to="/Uniform_hoodie_brown"><Button variant="secondary">UniformBrown</Button></Link>
+          <Link className='nav1' to="/Uniform_hoodie_black"><Button variant="secondary">UniformBlack</Button></Link>
           {/* <Link className='nav1' to="/Other_colors"><Button variant="secondary">Other_colors</Button></Link> */}
           {/* <Link className='nav1' to="/Drop6_360_Compo"><Button variant="secondary">Drop6</Button></Link>
           <Link className='nav1' to="/Drop6_360_Compo"><Button variant="secondary">Drop6</Button></Link> */}
@@ -54,10 +58,12 @@ function Navigation_btns() {
             <Route path="/Drop6_home" element={<Drop6_home />} />
             <Route path="/Black_denim_jacket_component" element={<Black_denim_jacket_component />} />
             <Route path="/Product_Detail" element={<Product_Detail />} />
+            <Route path="/Uniform_hoodie_black" element={<Uniform_hoodie_black />} />
             <Route path="/Signup" element={<Signup />} />
             <Route path="/Hover_Images" element={<Hover_Images />} />
             <Route path="/Uniform" element={<Uniform />} />
             <Route path="/Archive_move_image" element={<Archive_move_image />} />
+            <Route path="/Uniform_hoodie_brown" element={<Uniform_hoodie_brown />} />
             {/* <Route path="/Other_colors" element={<Other_colors />} /> */}
             <Route path="/Drop6_360_Compo" element={<Drop6_360_Compo />} />
             <Route path="/Cart" element={<Cart />} />

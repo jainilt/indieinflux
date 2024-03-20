@@ -4,12 +4,13 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Cart from './Cart';
 import Random_compo from './Refine_Click_Dropdown';
 import Sizing_dropdown_for_black_denim from './Sizing_dropdown_for_black_denim';
+import Other_colors_for_uniform_black_hoodie from './Other_colors_for_uniform_black_hoodie';
 function Navigation() {
   return (
     <>
     
-    <div className='scbg'><Sizing_chart_Btn_grp /></div>
-    <Sizing_dropdown_for_black_denim/>
+    {/* <div className='scbg'><Sizing_chart_Btn_grp /></div> */}
+    {/* <Sizing_dropdown_for_black_denim/> */}
 
 <div>
   <div className="btngrp">
@@ -23,9 +24,9 @@ function Navigation() {
     <Link to="/Cart"><button className='btn1 ph-bold brd collection-left'>Bag</button></Link>
     <Link to="/"><button className='btn1 ph-bold brd homebtn'>Home</button></Link>
       <br />
-      {/* <Sizing_chart_Btn_grp/> */}
     </div>
   </div>
+      <Other_colors_for_uniform_black_hoodie/>
 </div>
     </>
   );

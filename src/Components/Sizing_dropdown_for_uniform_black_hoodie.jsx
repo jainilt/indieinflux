@@ -23,10 +23,10 @@ const Sizing_dropdown_for_uniform_black_hoodie = () => {
     return (
         <div className="dropdown-size">
             <button onClick={toggleDropdown} className="dropbtn-size ph-bold ph-arrow-down">Sizing Chart</button>
-            <div id="myDropdown-size" className={`dropdown-content-size ${showDropdown ? 'show' : ''}`}>
+            <div id="blackdenimdropdownsize" className={`dropdown-content-size ${showDropdown ? 'show showforuniform' : ''}`}>
                 <div className='drop-image'>
-                    <img src='src/img/dropdown-image.webp' alt='random image' className='dropdown-image' />
-                    <p className='dropdownP'>style - Moto Denim Jacket</p>
+                    <img src='src/img/Sizing-chart-uniform-hoodie.webp' alt='random image' className='dropdown-image' />
+                    {/* <p className='dropdownP'>style - Moto Denim Jacket</p> */}
                 </div>
                 <div className='content-details-square'>
                     <ul>
@@ -40,57 +40,57 @@ const Sizing_dropdown_for_uniform_black_hoodie = () => {
                         <li>Measurement (cm)</li>
                         <li>Shoulder to shoulder </li>
                         <li>underarm to underarm</li>
-                        <li>Full length - shoulder to hem</li>
+                        <li>Full length-shoulder to hem</li>
                         <li>Sleeve length</li>
                     </ul>   
                     <ul>
                         <li>XXS</li>
-                        <li>43 </li>
-                        <li>49</li>
-                        <li>57.5</li>
-                        <li>67</li>
+                        <li>67.5 </li>
+                        <li>64.5</li>
+                        <li>61</li>
+                        <li>55.5</li>
                     </ul>   
                     <ul>
                         <li>XS</li>
-                        <li>44.5</li>
-                        <li>51.5</li>
-                        <li>58.5</li>
-                        <li>68</li>
+                        <li>69</li>
+                        <li>67</li>
+                        <li>63.5</li>
+                        <li>58</li>
                     </ul>   
                     <ul>
                         <li>S</li>
-                        <li>46</li>
-                        <li>54</li>
-                        <li>59.5</li>
-                        <li>69</li>
+                        <li>70.5</li>
+                        <li>69.5</li>
+                        <li>66</li>
+                        <li>60.5</li>
                     </ul>   
                     <ul>
                         <li>M</li>
-                        <li>47.5</li>
-                        <li>56.5</li>
-                        <li>60.5</li>
-                        <li>70</li>
+                        <li>72</li>
+                        <li>72</li>
+                        <li>69</li>
+                        <li>63</li>
                     </ul>   
                     <ul>
                         <li>L</li>
-                        <li>49</li>
-                        <li>59</li>
-                        <li>61.5</li>
-                        <li>71</li>
+                        <li>73.5</li>
+                        <li>74.5</li>
+                        <li>72</li>
+                        <li>64</li>
                     </ul>   
                     <ul>
                         <li>XL</li>
-                        <li>50.5</li>
-                        <li>61.5</li>
-                        <li>62.5</li>
-                        <li>72</li>
+                        <li>75</li>
+                        <li>77</li>
+                        <li>74.5</li>
+                        <li>65</li>
                     </ul>   
                     <ul>
                         <li>XXL</li>
-                        <li>52</li>
-                        <li>64</li>
-                        <li>63.5</li>
-                        <li>73</li>
+                        <li>76.5</li>
+                        <li>79.5</li>
+                        <li>77</li>
+                        <li>66</li>
                     </ul>   
                    
                 </div>

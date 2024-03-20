@@ -10,6 +10,7 @@ body {
   margin: 0;
   background-color: #82837d;
   font-family: 'Space Mono';
+  user-select: none; 
 }
 
 header {
@@ -374,6 +375,9 @@ button.size-btn i {
 .product-vars img:hover {
   filter: drop-shadow(-2px 0 1px #333);
 }
+.product-vars-img-for-hoodie:hover {
+  filter: drop-shadow(-2px 0 1px #333);
+}
 
 .icon:hover {
   cursor: pointer;
@@ -596,6 +600,7 @@ button.size-btn i {
   position: fixed;
   display: inline-block;
   margin-left: 72px;
+  z-index: 9999;
   /* margin: 0 auto; */
 }
 
@@ -629,8 +634,13 @@ button.size-btn i {
 .show {
   display: block;
   position: fixed;
+  left: 62px;
+  top: 39px;
 }
-
+.showforuniform{
+  left: 62px;
+  top: 42px;
+}
 ul.collection-dropdown-ul {
   width: 20px;
   position: fixed;
@@ -780,7 +790,7 @@ drop6text.text-drop6-in-navbar {
   border: 1px solid black;
   margin-top: 3px;
   margin-left: 80px;
-  background-color: rgba(130, 131, 125, .7);
+  background-color: rgba(130, 131, 125, .5);
 }
 
 
@@ -816,7 +826,7 @@ drop6text.text-drop6-in-navbar {
 
 .content-details-square ul {
   list-style: none;
-  padding: 10px 12px 0 10px;
+  padding: 10px 0px 0 10px;
 }
 
 
@@ -2147,6 +2157,6 @@ img.product-vars-img:hover {
   top: 315px;
   display: flex;
   /* left: 0; */
-  z-index: 99999;
+  z-index: 9;
   right: 35px;
 }

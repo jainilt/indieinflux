@@ -33,6 +33,9 @@ import Signup from './Components/Signup';
 import Styled_With from './Components/Styled_With_blue';
 import Btn_grp_for_black_denim from './Components/Btn_grp_for_black_denim';
 import Uniform from './Components/Uniform';
+import Uniform_hoodie_black from './Components/Uniform_hoodie_black'
+import Uniform_hoodie_brown from './Components/Uniform_hoodie_brown';
+import Other_colors_for_uniform_black_hoodie from './Components/Other_colors_for_uniform_black_hoodie';
 // import Product_Detail_GSAP from './Components/Try_gsap';
 function App() {
 
@@ -67,6 +70,9 @@ function App() {
     {/* <Product_Detail_GSAP/> */}
     {/* <Btn_grp_for_black_denim/> */}
     {/* <Uniform/> */}
+    {/* <Uniform_hoodie_black/> */}
+    {/* <Uniform_hoodie_brown/> */}
+    {/* <Other_colors_for_uniform_black_hoodie/> */}
     </Router>
     </>
     
