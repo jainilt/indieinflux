@@ -146,6 +146,7 @@ section.one:after {
 .product-vars img {
   width: 150px;
   height: 150px;
+  object-fit: contain;
 }
 
 .product-vars:hover .product-vars-img {
