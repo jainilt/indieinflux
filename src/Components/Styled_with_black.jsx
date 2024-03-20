@@ -14,15 +14,15 @@ function Navigation() {
     <ul>
       <li>
         <div className="product-vars product-vars-styled-with">
-          <Link className='nav1' to="/Drop6_360_Compo">
+          {/* <Link className='nav1' to="/Drop6_360_Compo"> */}
             <img className="product-vars-img" src="src/img/styledwith4.png" alt="" />
-          </Link>
-          <Link className='nav1' to="/Rotate360Degree_black_denim_jacket"> 
+          {/* </Link> */}
+          {/* <Link className='nav1' to="/Rotate360Degree_black_denim_jacket">  */}
             <img className="product-vars-img" src="src/img/styledwith5.png" alt="" />
-          </Link>
-          <Link className='nav1' to="/Rotate360Degree_black_denim_jacket"> 
+          {/* </Link> */}
+          {/* <Link className='nav1' to="/Rotate360Degree_black_denim_jacket">  */}
             <img className="product-vars-img" src="src/img/styledwith6.png" alt="" />
-          </Link>
+          {/* </Link> */}
         </div>
       </li>
     </ul>

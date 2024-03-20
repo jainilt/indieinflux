@@ -32,6 +32,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Signup from './Components/Signup';
 import Styled_With from './Components/Styled_With_blue';
 import Btn_grp_for_black_denim from './Components/Btn_grp_for_black_denim';
+import Uniform from './Components/Uniform';
 // import Product_Detail_GSAP from './Components/Try_gsap';
 function App() {
 
@@ -48,7 +49,7 @@ function App() {
     {/* <Logo/> */}
     {/* <Main_home_Nav_Btn/> */}
     {/* <Nav_bar/> */}
-    <Navigation_btns/>
+    {/* <Navigation_btns/> */}
     {/* <Drop6_home/>                        */}
       {/* <Other_colors /> */}
     {/* <Other_products/> */}
@@ -65,6 +66,7 @@ function App() {
     {/* <Styled_With/> */}
     {/* <Product_Detail_GSAP/> */}
     {/* <Btn_grp_for_black_denim/> */}
+    <Uniform/>
     </Router>
     </>
     

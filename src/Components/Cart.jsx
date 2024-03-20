@@ -28,7 +28,7 @@ function Cart() {
            x:-20,
            opacity: 0,
            duration: 2,
-           scale: -1
+           scale: 0
         })
         gsap.from(".cart-p", {
            x:20,
