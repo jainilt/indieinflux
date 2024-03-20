@@ -49,7 +49,7 @@ function App() {
     {/* <Logo/> */}
     {/* <Main_home_Nav_Btn/> */}
     {/* <Nav_bar/> */}
-    {/* <Navigation_btns/> */}
+    <Navigation_btns/>
     {/* <Drop6_home/>                        */}
       {/* <Other_colors /> */}
     {/* <Other_products/> */}
@@ -66,7 +66,7 @@ function App() {
     {/* <Styled_With/> */}
     {/* <Product_Detail_GSAP/> */}
     {/* <Btn_grp_for_black_denim/> */}
-    <Uniform/>
+    {/* <Uniform/> */}
     </Router>
     </>
     

@@ -18,6 +18,7 @@ import Cart from './Cart'
 import Black_denim_jacket_component from './Black_denim_jacket_component'
 import Archive_move_image from './Archive_move_image'
 import Signup from './Signup'
+import Uniform from './Uniform'
 function Navigation() {
   return (
     <>
@@ -34,6 +35,7 @@ function Navigation() {
           {/* <Link className='nav1' to="/Product_Detail"><Button variant="secondary">Product_Detail</Button></Link> */}
           <Link className='nav1' to="/Hover_Images"><Button variant="secondary">Upcoming</Button></Link>
           <Link className='nav1' to="/Signup"><Button variant="secondary">Login</Button></Link>
+          <Link className='nav1' to="/Uniform"><Button variant="secondary">Uniform</Button></Link>
           {/* <Link className='nav1' to="/Other_colors"><Button variant="secondary">Other_colors</Button></Link> */}
           {/* <Link className='nav1' to="/Drop6_360_Compo"><Button variant="secondary">Drop6</Button></Link>
           <Link className='nav1' to="/Drop6_360_Compo"><Button variant="secondary">Drop6</Button></Link> */}
@@ -54,6 +56,7 @@ function Navigation_btns() {
             <Route path="/Product_Detail" element={<Product_Detail />} />
             <Route path="/Signup" element={<Signup />} />
             <Route path="/Hover_Images" element={<Hover_Images />} />
+            <Route path="/Uniform" element={<Uniform />} />
             <Route path="/Archive_move_image" element={<Archive_move_image />} />
             {/* <Route path="/Other_colors" element={<Other_colors />} /> */}
             <Route path="/Drop6_360_Compo" element={<Drop6_360_Compo />} />

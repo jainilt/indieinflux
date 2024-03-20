@@ -2068,9 +2068,8 @@ img.uniform-main-img {
     display: flex;
     align-items: center;
 }
-.uniform-items-image{
-  animation: up 3s ease-in-out infinite;
-
+.uniform-items .uniform-items-image.animate img {
+  animation: up 3s ease-in-out infinite !important;
 }
 .uni-item-i {
   width: 100%;
@@ -2084,13 +2083,11 @@ img.uniform-main-img {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  
 }
 .uniform-p-price {
   text-align: center;
   width: 100%;
 }
-
 @keyframes fade-in {
   0% {
       opacity: 0
