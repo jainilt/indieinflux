@@ -14,15 +14,9 @@ function Navigation() {
     <ul>
       <li>
         <div className="product-vars product-vars-styled-with">
-          <Link className='nav1' to="/Drop6_360_Compo">
             <img className="product-vars-img" src="src/img/styledwith1.png" alt="" />
-          </Link>
-          <Link className='nav1' to="/Rotate360Degree_black_denim_jacket"> 
             <img className="product-vars-img" src="src/img/styledwith2.png" alt="" />
-          </Link>
-          <Link className='nav1' to="/Rotate360Degree_black_denim_jacket"> 
             <img className="product-vars-img" src="src/img/styledwith3.png" alt="" />
-          </Link>
         </div>
       </li>
     </ul>

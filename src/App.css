@@ -207,6 +207,13 @@ section.one:after {
   position: fixed;
   left: 78%;
 }
+.btn-group-second-for-hoodie {
+  /* display: flex; */
+  gap: 10px;
+  /* margin-top: -435px; */
+  position: fixed;
+  left: 78%;
+}
 
 .btn-group {
   flex-direction: column;
@@ -834,7 +841,8 @@ drop6text.text-drop6-in-navbar {
 .product-details-compo {
   display: flex;
   position: absolute;
-  left: 68%;
+  /* left: 68%; */
+  left: 65%;
   top: 70px;
   font-size: smaller;
   color: black;
@@ -1963,6 +1971,16 @@ button.active {
   overflow: hidden;
   animation: typing 10s, cursor .4s step-end infinite alternate;
 }
+.pd, .product-title, .product-price {
+  /* border-right: 5px solid; */
+  height: 18px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 10s, cursor .4s step-end infinite alternate;
+  margin: 7px 0;
+}
+
 
 .textforgsaptwo {
   border-right: 5px solid;
@@ -2105,4 +2123,30 @@ img.uniform-main-img {
   50% {
       margin-top: -8px;
   }
+}
+.uniform_hoodie_black_img {
+  width: 33%;
+  display: flex;
+}
+.uniform-parent {
+  display: flex;
+}
+.uniform_hoodie_black_img img{
+  width: 450px;
+}
+img.product-vars-img-for-hoodie {
+  width: 63px;
+}
+img.product-vars-img:hover {
+  filter: drop-shadow(-2px 0 1px #333);
+}
+.product-vars_for_uniform_black_hoodie {
+  cursor: pointer;
+  transition: margin 0.8s ease;
+  position: absolute;
+  top: 315px;
+  display: flex;
+  /* left: 0; */
+  z-index: 99999;
+  right: 35px;
 }

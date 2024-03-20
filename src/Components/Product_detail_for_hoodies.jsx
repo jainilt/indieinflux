@@ -8,8 +8,40 @@ import { gsap } from 'gsap';
 import Styled_With from './Styled_With_blue';
 import { useGSAP } from '@gsap/react';
 import { TextPlugin } from 'gsap/all';
-function Product_Detail() {
-
+function Product_detail_for_hoodies() {
+  useGSAP(() => {
+    
+    // gsap.from(".title-text", {
+    //    x:-80,
+    //    opacity: 0,
+    //    duration: 2,
+    // })
+    // gsap.to(".title-text", {
+    //     opacity: 1,
+    //     x: 0,
+    //     duration: 2
+    // })
+    // gsap.from(".pd", {
+    //    x:-80,
+    //    opacity: 0,
+    //    duration: 2,
+    // })
+    // gsap.to(".pd", {
+    //     opacity: 1,
+    //     x: 0,
+    //     duration: 2
+    // })
+  //   gsap.from(".product-price", {
+  //     x:-80,
+  //     opacity: 0,
+  //     duration: 2,
+  //  })
+  //   gsap.to(".product-price", {
+  //       opacity: 1,
+  //       x: 0,
+  //       duration: 2
+  //   })
+});
   return (
     <>
     <div className='product-details-compo'>
@@ -26,7 +58,6 @@ function Product_Detail() {
         <div className='pd'>- Moto panel detailing</div>
         <div className='pd'>- Ykk metal zips</div>
         <div className='pd'>- Snap dome collar</div>
-      <Other_colors />  
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <Size_Btn/>
     {/* <Styled_With/> */}
@@ -38,4 +69,4 @@ function Product_Detail() {
   )
 }
 
-export default Product_Detail
+export default Product_detail_for_hoodies
