@@ -2116,6 +2116,7 @@ img.uniform-main-img {
 .uniform-p-price {
   text-align: center;
   width: 100%;
+  text-transform: uppercase;
 }
 @keyframes fade-in {
   0% {
@@ -2155,9 +2156,16 @@ img.product-vars-img:hover {
   cursor: pointer;
   transition: margin 0.8s ease;
   position: absolute;
-  top: 315px;
+  top: 326px;
   display: flex;
   /* left: 0; */
   z-index: 9;
-  right: 35px;
+  right: 397px;
+}
+.btn-group-second-forUniform {
+  /* display: flex; */
+  gap: 10px;
+  margin-top: -59px;
+  position: fixed;
+  left: 77%;
 }

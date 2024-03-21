@@ -32,7 +32,7 @@ function Navigation() {
       <ul>
         <li>
           <Link className='nav1' to="/Drop6_home"><Button variant="secondary">Drop6</Button></Link>
-          <Link className='nav1' to="/Black_denim_jacket_component"><Button variant="secondary">Black_denim_jacket_component</Button></Link>
+          {/* <Link className='nav1' to="/Black_denim_jacket_component"><Button variant="secondary">Black_denim_jacket_component</Button></Link> */}
           <Link className='nav1' to="/Archive_move_image"><Button variant="secondary">Archive</Button></Link>
           {/* <Link className='nav1' to="/Product_Detail"><Button variant="secondary">Product_Detail</Button></Link> */}
           <Link className='nav1' to="/Hover_Images"><Button variant="secondary">Upcoming</Button></Link>
@@ -56,7 +56,7 @@ function Navigation_btns() {
           <Routes>
             
             <Route path="/Drop6_home" element={<Drop6_home />} />
-            <Route path="/Black_denim_jacket_component" element={<Black_denim_jacket_component />} />
+            {/* <Route path="/Black_denim_jacket_component" element={<Black_denim_jacket_component />} /> */}
             <Route path="/Product_Detail" element={<Product_Detail />} />
             <Route path="/Uniform_hoodie_black" element={<Uniform_hoodie_black />} />
             <Route path="/Signup" element={<Signup />} />

@@ -42,6 +42,7 @@ function App() {
   return (
     <>
     <Router>
+    <Navigation_btns/>
     {/* <Archive_move_image/> */}
     {/* <Black_denim_jacket_component/>  */}
     {/* <Sizing_chart_drop_down/> */}
@@ -52,7 +53,6 @@ function App() {
     {/* <Logo/> */}
     {/* <Main_home_Nav_Btn/> */}
     {/* <Nav_bar/> */}
-    <Navigation_btns/>
     {/* <Drop6_home/>                        */}
       {/* <Other_colors /> */}
     {/* <Other_products/> */}
