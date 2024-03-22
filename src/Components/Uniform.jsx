@@ -2,10 +2,14 @@ import React from 'react'
 import Nav_bar from './Nav_bar'
 import Btn_grp_for_Uniform from './Btn_grp_for_Uniform'
 import Collection_dropdown_for_Uniform from './Collection_dropdown_for_Uniform'
+import Uniform_hoodie_black from './Uniform_hoodie_black'
+import Uniform_hoodie_brown from './Uniform_hoodie_brown'
+import { BrowserRouter as Router, Routes, Route, Link, useLocation  } from 'react-router-dom';
 
-function Uniform() {
+function Navigation() {
     return (
-        <>
+      <>
+            
             <div>
                 <Nav_bar />
                 <Btn_grp_for_Uniform/>
@@ -19,7 +23,8 @@ function Uniform() {
                 <section>
                     <div className='uniform-items'>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-1.png' />
+                        <Link to="/Uniform_hoodie_black"><img className='uni-item-i' src='src/img/uniform/uniform-image-1.png' /></Link>
+                            
                             <p className='uniform-p-price'>thermal hood <br/> 21,527/- INR</p>
                         </div>
                         <div className='uniform-items-image animate'>
@@ -85,83 +90,7 @@ function Uniform() {
                     </div>
                 </section>
             </div>
-
             <div className='uniform-collection-page-container'>
-                <div className='uniform-collection-main-image'>
-                    <img className='uniform-main-img' src='src/img/uniform_top_img2.webp' />
-                </div>
-            </div>
-            <section>
-                    <div className='uniform-items'>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-16.webp' />
-                            <p className='uniform-p-price'>thermal hood  <br/> 21,535/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-17.webp' />
-                            <p className='uniform-p-price'>full sweatpant  <br/> 14052/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-18.webp' />
-                            <p className='uniform-p-price'>heavy ls tee  <br/> 10726/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-19.webp' />
-                            <p className='uniform-p-price'>heavy hood  <br/> 12056/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-20.webp' />
-                            <p className='uniform-p-price'>full zip  <br/> 12888/- inr</p>
-                        </div>
-                    </div>
-                    <div className='uniform-items'>
-                    <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-21.webp' />
-                            <p className='uniform-p-price'>eternal zip  <br/> 13220/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-22.webp' />
-                            <p className='uniform-p-price'>box crew  <br/> 9894/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-23.webp' />
-                            <p className='uniform-p-price'>cropped heavy hood  <br/> 11225/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-24.webp' />
-                            <p className='uniform-p-price'>cropped full zip  <br/> 12389/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-25.webp' />
-                            <p className='uniform-p-price'>utility sweats  <br/> 17460/- inr</p>
-                        </div>
-                        
-                    </div>
-                    <div className='uniform-items'>
-                    <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-26.webp' />
-                            <p className='uniform-p-price'>heavy gocar  <br/> 15798/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-27.webp' />
-                            <p className='uniform-p-price'>heavy sweatpant  <br/> 8231/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-28.webp' />
-                            <p className='uniform-p-price'>straight-leg sweatpant  <br/> 10726/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-29.webp' />
-                            <p className='uniform-p-price'>heavy flare  <br/> 11557/- inr</p>
-                        </div>
-                        <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-30.webp' />
-                            <p className='uniform-p-price'>heavy drop short  <br/> 10726/- inr</p>
-                        </div>
-                        
-                    </div>
-                </section>
-            {/* <div className='uniform-collection-page-container'>
                 <div className='uniform-collection-main-image'>
                     <img className='uniform-main-img' src='src/img/uniform_top_img3.webp' />
                 </div>
@@ -169,73 +98,89 @@ function Uniform() {
             <section>
                     <div className='uniform-items'>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-31.jpg' />
+                        <Link to="/Uniform_hoodie_brown"><img className='uni-item-i' src='src/img/uniform/uniform-image-46.webp' /></Link>
+                            
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-32.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-47.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-33.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-48.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-34.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-49.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-35.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-50.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                     </div>
                     <div className='uniform-items'>
                     <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-36.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-51.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-37.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-52.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-38.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-53.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-39.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-54.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-40.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-55.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         
                     </div>
                     <div className='uniform-items'>
                     <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-41.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-56.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-42.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-57.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-43.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-58.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-44.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-59.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         <div className='uniform-items-image animate'>
-                            <img className='uni-item-i' src='src/img/uniform/uniform-image-45.jpg' />
+                            <img className='uni-item-i' src='src/img/uniform/uniform-image-60.webp' />
                             <p className='uniform-p-price'>Hello</p>
                         </div>
                         
                     </div>
-                </section> */}
+                </section>
+      </>
+    );
+  }
+function Uniform() {
+    return (
+        <>
+            <Routes>
+            
+            <Route path="/Uniform_hoodie_black" element={<Uniform_hoodie_black />} />
+            <Route path="/Uniform_hoodie_brown" element={<Uniform_hoodie_brown />} />
+            <Route
+              path="/*"
+              element={<Navigation />}
+            />
+          </Routes>
         </>
     )
 }

@@ -7,8 +7,8 @@ import Uniform_hoodie_brown from './Uniform_hoodie_brown';
 function Other_colors_for_uniform_black_hoodie() {
   // Sample product data (replace with your actual data structure)
   const productColors = [
-    { id: 1, name: 'Color 1', image: '/src/img/uniform/other1.png', link: '/Uniform_hoodie_black' },
-    { id: 2, name: 'Color 2', image: '/src/img/uniform/other2.png', link: '/Uniform_hoodie_brown' },
+    { id: 1, name: 'Color 1', image: '/src/img/uniform/uniform-image-1.png', link: '/Uniform_hoodie_black' },
+    { id: 2, name: 'Color 2', image: '/src/img/uniform/other2.png', link: '/Uniform_hoodie_brown' }
     // ... add data for other colors
   ];
 
