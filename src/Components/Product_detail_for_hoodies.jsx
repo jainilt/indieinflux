@@ -64,7 +64,6 @@ function Product_detail_for_hoodies() {
     {/* <Styled_With/> */}
       </div>
     </div>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     {/* <Human_slider/> */}
     </>
   )
