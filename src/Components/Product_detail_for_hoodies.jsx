@@ -46,18 +46,19 @@ function Product_detail_for_hoodies() {
     <>
     <div className='product-details-compo'>
       <div className='product-title'>
-        <span className='title-text'>MOTO DENIM JACKET SURFACE WAVE</span>
+        <span className='title-text'>THERMAL HOOD WASHED BLACK</span>
       </div>
       <div className='product-price'>
-        <span>Rs.1899/-</span>
+        <span>Rs.21,585/-</span>
       </div>
       <div className='product-description'>
-        <div className='pd'>- 100% cotton Japanese selvedge denim</div>
-        <div className='pd'>- 13.75oz</div>
-        <div className='pd'>- Waist pockets</div>
-        <div className='pd'>- Moto panel detailing</div>
-        <div className='pd'>- Ykk metal zips</div>
-        <div className='pd'>- Snap dome collar</div>
+        <div className='pd'>- 100% organic cotton brushed back fleece</div>
+        <div className='pd'>- A heavy enzyme wash is used which can cause slight variances</div>
+        <div className='pd'>- 275gsm</div>
+        <div className='pd'>- 100% organic cotton waffle lining</div>
+        <div className='pd'>- Waist pouch pockets</div>
+        <div className='pd'>- Ykk metal front zip</div>
+        <div className='pd'>- Unisex sizing</div>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <Size_Btn/>
     {/* <Styled_With/> */}

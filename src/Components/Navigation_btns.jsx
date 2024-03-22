@@ -38,8 +38,8 @@ function Navigation() {
           <Link className='nav1' to="/Hover_Images"><Button variant="secondary">Upcoming</Button></Link>
           <Link className='nav1' to="/Signup"><Button variant="secondary">Login</Button></Link>
           <Link className='nav1' to="/Uniform"><Button variant="secondary">Uniform</Button></Link>
-          <Link className='nav1' to="/Uniform_hoodie_brown"><Button variant="secondary">UniformBrown</Button></Link>
-          <Link className='nav1' to="/Uniform_hoodie_black"><Button variant="secondary">UniformBlack</Button></Link>
+          {/* <Link className='nav1' to="/Uniform_hoodie_brown"><Button variant="secondary">UniformBrown</Button></Link> */}
+          {/* <Link className='nav1' to="/Uniform_hoodie_black"><Button variant="secondary">UniformBlack</Button></Link> */}
           {/* <Link className='nav1' to="/Other_colors"><Button variant="secondary">Other_colors</Button></Link> */}
           {/* <Link className='nav1' to="/Drop6_360_Compo"><Button variant="secondary">Drop6</Button></Link>
           <Link className='nav1' to="/Drop6_360_Compo"><Button variant="secondary">Drop6</Button></Link> */}
