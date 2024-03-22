@@ -37,7 +37,7 @@ function Rotate360Degree_black_denim_jacket() {
   return (
     <>
       {/* <Nav_bar/> */}
-      <Btn_grp className='scbg'/>
+      {/* <Btn_grp className='scbg'/> */}
       <div className='rotate360parent'>
         <div className="rotation-container-360" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <img
@@ -57,8 +57,9 @@ function Rotate360Degree_black_denim_jacket() {
         </div>
         
       </div>
-            {/* <Product_Detail/>  */}
+            <Product_Detail/> 
             {/* <Human_slider/> */}
+            <Styled_With_black/>
     </>
   );
 }

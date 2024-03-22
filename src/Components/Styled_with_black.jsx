@@ -9,11 +9,11 @@ import Size_Btn from './Size_Btn';
 function Navigation() {
   return (
     <>
-    <div className='ii-styled-with-title'>styled with  ↓</div>
+    <div className='ii-styled-with-title-black'>styled with  ↓</div>
         <nav className='navvvvv'>
     <ul>
       <li>
-        <div className="product-vars product-vars-styled-with">
+        <div className="product-vars product-vars-styled-with-black">
           {/* <Link className='nav1' to="/Drop6_360_Compo"> */}
             <img className="product-vars-img" src="src/img/styledwith4.png" alt="" />
           {/* </Link> */}

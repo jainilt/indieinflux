@@ -7,6 +7,7 @@ import Rotate360Degree_black_denim_jacket from './Rotate360Degree_black_denim_ja
 import { Routes, Route, Link } from 'react-router-dom';
 import Sizing_dropdown_for_black_denim from './Sizing_dropdown_for_black_denim'
 import Styled_With_black from './Styled_with_black'
+import Btn_grp_for_black_denim from './Btn_grp_for_black_denim'
 import Nav_bar from './Nav_bar'
 function Black_denim_jacket_component() {
     return (
@@ -16,12 +17,11 @@ function Black_denim_jacket_component() {
         <Rotate360Degree_black_denim_jacket/>
         {/* <Product_Detail/> */}
         <div className='btn-grp-drop-360-compo'>
-      <Btn_grp/>
+      <Btn_grp_for_black_denim/>
       </div>
       <Product_Detail/> 
-
         <Human_slider_for_black/>
-        <Styled_With_black/>
+        {/* <Styled_With_black/> */}
       </div>
         </>
     )

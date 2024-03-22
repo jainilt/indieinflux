@@ -209,6 +209,15 @@ section.one:after {
   position: fixed;
   left: 78%;
 }
+.second-black {
+  .btn-group-second {
+    display: flex;
+    /* gap: 10px; */
+    margin-top: -134px;
+    position: fixed;
+    left: 78%;
+}
+}
 .btn-group-second-for-hoodie {
   /* display: flex; */
   gap: 10px;
@@ -575,6 +584,7 @@ button.size-btn i {
   top: 13.5px;
   box-shadow: none !important;
   position: fixed;
+  background-color: transparent;
 }
 
 .dropbtn-size {
@@ -762,6 +772,13 @@ drop6text.text-drop6-in-navbar {
 }
 
 .btngrp {
+  position: fixed;
+  display: flex;
+  margin-top: 1.01%;
+  margin-left: 1.5%;
+  z-index: 99999;
+}
+.btngrp-black {
   position: fixed;
   display: flex;
   margin-top: 1.01%;
@@ -1924,17 +1941,23 @@ span.price_sec2 {
   opacity: 1;
 }
 
-.ii-styled-with-title {
+.ii-styled-with-title-black {
   position: absolute;
-  top: 598px;
-  left: 77.5%;
+  top: 666px;
+  left: 75.5%;
 }
-
+.ii-styled-with-title {
+  margin-left: 75.5%;
+  margin-top: 233px;
+}
+.product-vars.product-vars-styled-with-black {
+  top: -180px;
+  left: 66%;
+}
 .product-vars.product-vars-styled-with {
-  top: -960px;
-  left: 67%;
+  margin-left: 983px;
+  margin-top: -20px;
 }
-
 .item-selected {
   animation: floating 2s ease infinite;
 }
@@ -1966,7 +1989,6 @@ button.active {
   position: relative;
   z-index: 999;
 }
-
 /* .scbg #myDropdown-size {
   top: -342px;
   color: #000;
@@ -2168,4 +2190,18 @@ img.product-vars-img:hover {
   margin-top: -59px;
   position: fixed;
   left: 77%;
+}
+.btn_for_black {
+  display: flex;
+  margin-top: -692px;
+  position: relative;
+  z-index: 999;
+  margin-left: 1288px;
+  box-shadow: none !important;
+}
+.bag-black{
+  margin-left: -100px;
+}
+.home-black{
+  background-color: transparent;
 }

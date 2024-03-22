@@ -16,9 +16,9 @@ function Drop6_360_Compo() {
       <div className='btn-grp-drop-360-compo'>
       <Btn_grp/>
       </div>
+    <Styled_With/>
       <Product_Detail/>
     <Human_slider/>
-    <Styled_With/>
 
       
       

@@ -41,7 +41,7 @@ button {
   background-color: #c8c8c880;
   z-index: 999;
   font-family: "Space Mono",sans-serif;
-  box-shadow: 0 1px 6px rgba(32,33,36,0.6) !important;
+  /* box-shadow: 0 1px 6px rgba(32,33,36,0.6) !important; */
   cursor: pointer;
   font-size: 12px;
   border: none;

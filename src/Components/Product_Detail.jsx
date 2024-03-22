@@ -32,7 +32,7 @@ function Product_Detail() {
     {/* <Styled_With/> */}
       </div>
     </div>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
     {/* <Human_slider/> */}
     </>
   )
