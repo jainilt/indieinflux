@@ -38,6 +38,7 @@ import Uniform_hoodie_brown from './Components/Uniform_hoodie_brown';
 import Other_colors_for_uniform_black_hoodie from './Components/Other_colors_for_uniform_black_hoodie';
 import Human_slider_for_black from './Components/Human_slider_for_black';
 import Styled_With_black from './Components/Styled_with_black';
+import Selfridges_home from './Components/Selfridges_home';
 // import Product_Detail_GSAP from './Components/Try_gsap';
 function App() {
 
@@ -45,7 +46,8 @@ function App() {
     <>
     <Router>
       {/* <Human_slider_for_black/> */}
-    <Navigation_btns/>
+    {/* <Navigation_btns/> */}
+    <Selfridges_home/>
     {/* <Archive_move_image/> */}
     {/* <Black_denim_jacket_component/>  */}
     {/* <Sizing_chart_drop_down/> */}

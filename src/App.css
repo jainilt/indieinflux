@@ -2194,7 +2194,7 @@ img.product-vars-img:hover {
 .btn_for_black {
   display: flex;
   margin-top: -692px;
-  position: relative;
+  position: fixed;
   z-index: 999;
   margin-left: 1288px;
   box-shadow: none !important;
@@ -2204,4 +2204,64 @@ img.product-vars-img:hover {
 }
 .home-black{
   background-color: transparent;
+}
+.hover_self-1:hover {
+  background-image: url("src/img/selfridges/self-hover.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hover_self-2:hover {
+  background-image: url("src/img/selfridges/self-hover2.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hover_self-3:hover {
+  background-image: url("src/img/selfridges/self-hover3.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hover_self-4:hover {
+  background-image: url("src/img/selfridges/self-hover4.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hover_self-5:hover {
+  background-image: url("src/img/selfridges/self-hover5.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hover_self-6:hover {
+  background-image: url("src/img/selfridges/self-hover5.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hover_self-7:hover {
+  background-image: url("src/img/selfridges/self-hover6.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hover_self-8:hover {
+  background-image: url("src/img/selfridges/self-hover6.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hover_self-9:hover {
+  background-image: url("src/img/selfridges/self-hover7.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hover_self-10:hover {
+  background-image: url("src/img/selfridges/self-hover7.webp");
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
