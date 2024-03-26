@@ -46,8 +46,8 @@ function App() {
     <>
     <Router>
       {/* <Human_slider_for_black/> */}
-    {/* <Navigation_btns/> */}
-    <Selfridges_home/>
+    <Navigation_btns/>
+    {/* <Selfridges_home/> */}
     {/* <Archive_move_image/> */}
     {/* <Black_denim_jacket_component/>  */}
     {/* <Sizing_chart_drop_down/> */}
