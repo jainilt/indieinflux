@@ -39,6 +39,11 @@ import Other_colors_for_uniform_black_hoodie from './Components/Other_colors_for
 import Human_slider_for_black from './Components/Human_slider_for_black';
 import Styled_With_black from './Components/Styled_with_black';
 import Selfridges_home from './Components/Selfridges_home';
+import Selfridge_rotate_360 from './Components/Selfridge_rotate_360';
+import Product_detail_for_selfridge from './Components/Product_detail_for_selfridge';
+import Btn_grp_for_selfridge from './Components/Btn_grp_for_selfridge';
+import Sizing_chart_drpdwn_for_selfridge from './Components/Sizing_chart_drpdwn_for_selfridge';
+import Size_btn_for_selfridge from './Components/Size_btn_for_selfridge';
 // import Product_Detail_GSAP from './Components/Try_gsap';
 function App() {
 
@@ -47,6 +52,11 @@ function App() {
     <Router>
       {/* <Human_slider_for_black/> */}
     <Navigation_btns/>
+    {/* <Size_btn_for_selfridge/> */}
+    {/* <Selfridge_rotate_360/> */}
+    {/* <Sizing_chart_drpdwn_for_selfridge/> */}
+    {/* <Btn_grp_for_selfridge/> */}
+    {/* <Product_detail_for_selfridge/> */}
     {/* <Selfridges_home/> */}
     {/* <Archive_move_image/> */}
     {/* <Black_denim_jacket_component/>  */}

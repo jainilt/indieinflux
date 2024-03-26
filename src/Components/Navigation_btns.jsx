@@ -22,6 +22,7 @@ import Uniform from './Uniform'
 import Uniform_hoodie_brown from './Uniform_hoodie_brown'
 import Uniform_hoodie_black from './Uniform_hoodie_black'
 import Selfridges_home from './Selfridges_home'
+import Selfridge_rotate_360 from './Selfridge_rotate_360'
 function Navigation() {
   return (
     <>
@@ -33,13 +34,14 @@ function Navigation() {
       <ul>
         <li>
           <Link className='nav1' to="/Drop6_home"><Button variant="secondary">Drop6</Button></Link>
+          <Link className='nav1' to="/Uniform"><Button variant="secondary">Uniform</Button></Link>
+          <Link className='nav1' to="/Selfridges_home"><Button variant="secondary">Selfridges</Button></Link>
           {/* <Link className='nav1' to="/Black_denim_jacket_component"><Button variant="secondary">Black_denim_jacket_component</Button></Link> */}
           <Link className='nav1' to="/Archive_move_image"><Button variant="secondary">Archive</Button></Link>
           {/* <Link className='nav1' to="/Product_Detail"><Button variant="secondary">Product_Detail</Button></Link> */}
           <Link className='nav1' to="/Hover_Images"><Button variant="secondary">Upcoming</Button></Link>
           <Link className='nav1' to="/Signup"><Button variant="secondary">Login</Button></Link>
-          <Link className='nav1' to="/Uniform"><Button variant="secondary">Uniform</Button></Link>
-          <Link className='nav1' to="/Selfridges_home"><Button variant="secondary">Selfridges</Button></Link>
+          <Link className='nav1' to="/Selfridge_rotate_360"><Button variant="secondary">Login</Button></Link>
           {/* <Link className='nav1' to="/Uniform_hoodie_brown"><Button variant="secondary">UniformBrown</Button></Link> */}
           {/* <Link className='nav1' to="/Uniform_hoodie_black"><Button variant="secondary">UniformBlack</Button></Link> */}
           {/* <Link className='nav1' to="/Other_colors"><Button variant="secondary">Other_colors</Button></Link> */}
@@ -70,6 +72,7 @@ function Navigation_btns() {
             <Route path="/Drop6_360_Compo" element={<Drop6_360_Compo />} />
             <Route path="/Cart" element={<Cart />} />
             <Route path="/Selfridges_home" element={<Selfridges_home />} />
+            <Route path="/Selfridge_rotate_360" element={<Selfridge_rotate_360 />} />
             <Route path="/*" element={<Navigation/>} />
             {/* <Route path="/VideoCompo" element={<VideoCompo />} /> */}
             <Route

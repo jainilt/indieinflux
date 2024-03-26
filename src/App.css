@@ -846,7 +846,9 @@ drop6text.text-drop6-in-navbar {
   list-style: none;
   padding: 10px 0px 0 10px;
 }
-
+.self-size{
+  padding: 10px 10px 0 10px;
+}
 
 .product-price {
   display: flex;
@@ -2264,4 +2266,30 @@ img.product-vars-img:hover {
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.selfridge-rotate-360-img{
+  top: -308px;
+  margin-left: 60px;
+}
+.selfridge-drpdwn{
+  top: 35px !important;
+}
+.selfridge-bag-btn {
+  position: fixed;
+  margin-top: 221px;
+  margin-left: 0px;
+}
+.selfridge-home-btn {
+  position: fixed;
+  margin-top: 221px;
+  margin-left: 110px;
+}
+.Size_btn_parent.for-selfbridge-sizes {
+  left: 999px;
+  top: 407px;
+  z-index: 9;
+}
+button.size-btn.addtocartbtn.addtocartbtnforself {
+  left: 529px;
+  top: 162px;
 }
