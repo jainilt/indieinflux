@@ -47,7 +47,6 @@ import Size_btn_for_selfridge from './Components/Size_btn_for_selfridge';
 import Other_colors_for_selfridge from './Components/Other_colors_for_selfridge';
 import Selfridge_rotate_360_white from './Components/Selfridge_rotate_360_white';
 import SR_pink_tee_1st from './Components/SR_pink_tee_1st';
-// import Product_Detail_GSAP from './Components/Try_gsap';
 function App() {
 
   return (
