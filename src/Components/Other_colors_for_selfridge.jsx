@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link, useLocation, Router } from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Drop6_360_Compo from './Drop6_360_Compo';
 import Black_denim_jacket_component from './Black_denim_jacket_component';
 import Sizing_chart_drpdwn_for_selfridge from './Sizing_chart_drpdwn_for_selfridge';
@@ -15,7 +15,7 @@ function Navigation() {
       <ul>
         <li>
           <div className="other-colors-selfridge">
-            <Link to="/Selfridge_rotate_360_white">
+            <Link className={location.pathname === "/" ? 'item-selected' : 'nav1'} to="/">
               <img className="product-vars-img" src="src/img/selfridges/other-colors/o1.png" alt="" />
             </Link>
             <Link className={location.pathname === "/" ? 'item-selected' : 'nav1'} to="/">
