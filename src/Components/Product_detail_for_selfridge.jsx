@@ -28,14 +28,10 @@ function Product_detail_for_selfridge() {
         <div className='pd'>- Adjustable hem drawcords</div>
         <div className='pd'>- Metal YKK zips</div>
         <div className='pd'>- 3 compartments</div>
-      {/* <Other_colors />   */}
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    {/* <Size_Btn/> */}
-    {/* <Styled_With/> */}
       </div>
     </div>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    {/* <Human_slider/> */}
     </>
   )
 }

@@ -605,6 +605,7 @@ button.size-btn i {
 .dropdown {
   position: relative;
   display: inline-block;
+  z-index: 9999;
 }
 
 .dropdown-size {
@@ -874,6 +875,14 @@ drop6text.text-drop6-in-navbar {
   /* left: 68%; */
   left: 65%;
   top: 70px;
+  font-size: smaller;
+  color: black;
+  z-index: 1;
+}
+.product-details-compo2 {
+  display: flex;
+  position: absolute;
+  /* left: 68%; */
   font-size: smaller;
   color: black;
   z-index: 1;
@@ -2197,7 +2206,7 @@ img.product-vars-img:hover {
   display: flex;
   margin-top: -692px;
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   margin-left: 1288px;
   box-shadow: none !important;
 }
