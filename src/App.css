@@ -612,7 +612,7 @@ button.size-btn i {
   position: fixed;
   display: inline-block;
   margin-left: 72px;
-  z-index: 9999;
+  z-index: 99999;
   /* margin: 0 auto; */
 }
 
