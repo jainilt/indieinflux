@@ -179,7 +179,7 @@ section.one:after {
 
 .nav {
   position: relative;
-  z-index: 999;
+  z-index: 9999;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -985,7 +985,7 @@ drop6text.text-drop6-in-navbar {
 .navvvvv {
   list-style: none;
   position: relative;
-  z-index: 1;
+  z-index: 999;
   top: 220px;
   left: -15px;
   display: flex;
@@ -2272,7 +2272,7 @@ img.product-vars-img:hover {
   margin-left: 60px;
 }
 .selfridge-drpdwn{
-  top: 35px !important;
+  top: 41px !important;
 }
 .selfridge-bag-btn {
   position: fixed;
@@ -2291,5 +2291,21 @@ img.product-vars-img:hover {
 }
 button.size-btn.addtocartbtn.addtocartbtnforself {
   left: 529px;
-  top: 162px;
+  top: 25px;
+  width: 172%;
+  z-index: 999;
+}
+.other-colors-selfridge {
+  position: relative;
+  margin-left: 925px;
+  display: flex;
+  align-items: center;
+  top: -134px;
+  z-index: -8;
+}
+.other-colors-selfridge img {
+  width: 75px;
+  display: flex;
+  gap: 48px !important;
+  margin: 11px;
 }

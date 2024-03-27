@@ -6,7 +6,7 @@ import Product_detail_for_selfridge from './Product_detail_for_selfridge';
 import Size_btn_for_selfridge from './Size_btn_for_selfridge';
 import { Routes, Route, Link } from 'react-router-dom';
 import Other_colors_for_selfridge from './Other_colors_for_selfridge';
-function Selfridge_rotate_360() {
+function Selfridge_rotate_360_white() {
   const [currentImageIndex, setCurrentImageIndex] = useState(1);
   const totalImages = 8;
   const [isHovered, setIsHovered] = useState(false);
@@ -40,7 +40,7 @@ function Selfridge_rotate_360() {
         <div className="rotation-container-360" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <img
             id="imageof360"
-            src={`src/img/selfridge-rotate/image${currentImageIndex}.png`}
+            src={`src/img/selfridge-rotate_white/image${currentImageIndex}.png`}
             alt={`Image ${currentImageIndex}`}
             className="rotating-image selfridge-rotate-360-img"
             />
@@ -59,4 +59,4 @@ function Selfridge_rotate_360() {
   );
 }
 
-export default Selfridge_rotate_360;
+export default Selfridge_rotate_360_white;
