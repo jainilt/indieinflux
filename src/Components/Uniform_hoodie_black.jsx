@@ -8,20 +8,20 @@ function Uniform_hoodie_black() {
 
   return (
     <>
-    <Sizing_dropdown_for_uniform_black_hoodie/>
-    <Btn_grp_for_uniform_hoodies/>
-    <br/><br/><br/><br/><br/><br/><br/><br/>
+      <Sizing_dropdown_for_uniform_black_hoodie />
+      <Btn_grp_for_uniform_hoodies />
+      <br /><br /><br /><br /><br /><br /><br /><br />
       <div className='uniform-parent'>
         <div className="uniform_hoodie_black_img">
-          <img src='src/img/uniform/uniform-image-1.png'/>
+          <img src='src/img/uniform/uniform-image-1.png' />
         </div>
         <div className="uniform_hoodie_black_img">
-        <img src='src/img/uniform-image-1(2).webp'/>
+          <img src='src/img/uniform-image-1(2).webp' />
         </div>
       </div>
-      <Product_detail_for_hoodies/>
-    {/* <Human_slider/> */}
-    {/* <Styled_With/> */}
+      <Product_detail_for_hoodies />
+      {/* <Human_slider/> */}
+      {/* <Styled_With/> */}
     </>
   );
 }

@@ -51,52 +51,52 @@ function App() {
 
   return (
     <>
-    <Router>
-      {/* <Human_slider_for_black/> */}
-    <Navigation_btns/>
-    {/* <SR_pink_tee_1st/> */}
-    {/* <Selfridge_rotate_360_white/> */}
-    {/* <Other_colors_for_selfridge/> */}
-    {/* <Size_btn_for_selfridge/> */}
-    {/* <Selfridge_rotate_360/> */}
-    {/* <Sizing_chart_drpdwn_for_selfridge/> */}
-    {/* <Btn_grp_for_selfridge/> */}
-    {/* <Product_detail_for_selfridge/> */}
-    {/* <Selfridges_home/> */}
-    {/* <Archive_move_image/> */}
-    {/* <Black_denim_jacket_component/>  */}
-    {/* <Sizing_chart_drop_down/> */}
-    {/* <Cart/> */}
-    {/* <Drop6_360_Compo/> */}
-    {/* <Hover_Images/> */}
-    {/* <Human_slider/> */}
-    {/* <Logo/> */}
-    {/* <Main_home_Nav_Btn/> */}
-    {/* <Nav_bar/> */}
-    {/* <Drop6_home/>                        */}
-      {/* <Other_colors /> */}
-    {/* <Other_products/> */}
-    {/* <Product_Detail/> */}
-    {/* <Random_compo/>          */}
-    {/* <Right_img_sticky/> */}
-    {/* <Rotate360Degree_black_denim_jacket/> */}
-    {/* <Rotate360Degree/> */}
-    {/* <Size_Btn/> */}
-    {/* <Sizing_chart_Btn_grp/> */}
-    {/* <Swiper_human/> */}
-    {/* <VideoCompo/> */}
-    {/* <Signup/> */}
-    {/* <Styled_With/> */}
-    {/* <Product_Detail_GSAP/> */}
-    {/* <Btn_grp_for_black_denim/> */}
-    {/* <Uniform/> */}
-    {/* <Uniform_hoodie_black/> */}
-    {/* <Uniform_hoodie_brown/> */}
-    {/* <Other_colors_for_uniform_black_hoodie/> */}
-    </Router>
+      <Router>
+        {/* <Human_slider_for_black/> */}
+        <Navigation_btns />
+        {/* <SR_pink_tee_1st/> */}
+        {/* <Selfridge_rotate_360_white/> */}
+        {/* <Other_colors_for_selfridge/> */}
+        {/* <Size_btn_for_selfridge/> */}
+        {/* <Selfridge_rotate_360/> */}
+        {/* <Sizing_chart_drpdwn_for_selfridge/> */}
+        {/* <Btn_grp_for_selfridge/> */}
+        {/* <Product_detail_for_selfridge/> */}
+        {/* <Selfridges_home/> */}
+        {/* <Archive_move_image/> */}
+        {/* <Black_denim_jacket_component/>  */}
+        {/* <Sizing_chart_drop_down/> */}
+        {/* <Cart/> */}
+        {/* <Drop6_360_Compo/> */}
+        {/* <Hover_Images/> */}
+        {/* <Human_slider/> */}
+        {/* <Logo/> */}
+        {/* <Main_home_Nav_Btn/> */}
+        {/* <Nav_bar/> */}
+        {/* <Drop6_home/>                        */}
+        {/* <Other_colors /> */}
+        {/* <Other_products/> */}
+        {/* <Product_Detail/> */}
+        {/* <Random_compo/>          */}
+        {/* <Right_img_sticky/> */}
+        {/* <Rotate360Degree_black_denim_jacket/> */}
+        {/* <Rotate360Degree/> */}
+        {/* <Size_Btn/> */}
+        {/* <Sizing_chart_Btn_grp/> */}
+        {/* <Swiper_human/> */}
+        {/* <VideoCompo/> */}
+        {/* <Signup/> */}
+        {/* <Styled_With/> */}
+        {/* <Product_Detail_GSAP/> */}
+        {/* <Btn_grp_for_black_denim/> */}
+        {/* <Uniform/> */}
+        {/* <Uniform_hoodie_black/> */}
+        {/* <Uniform_hoodie_brown/> */}
+        {/* <Other_colors_for_uniform_black_hoodie/> */}
+      </Router>
     </>
-    
-    
+
+
   )
 }
 

@@ -42,57 +42,57 @@ const Sizing_dropdown_for_uniform_black_hoodie = () => {
                         <li>underarm to underarm</li>
                         <li>Full length-shoulder to hem</li>
                         <li>Sleeve length</li>
-                    </ul>   
+                    </ul>
                     <ul>
                         <li>XXS</li>
                         <li>67.5 </li>
                         <li>64.5</li>
                         <li>61</li>
                         <li>55.5</li>
-                    </ul>   
+                    </ul>
                     <ul>
                         <li>XS</li>
                         <li>69</li>
                         <li>67</li>
                         <li>63.5</li>
                         <li>58</li>
-                    </ul>   
+                    </ul>
                     <ul>
                         <li>S</li>
                         <li>70.5</li>
                         <li>69.5</li>
                         <li>66</li>
                         <li>60.5</li>
-                    </ul>   
+                    </ul>
                     <ul>
                         <li>M</li>
                         <li>72</li>
                         <li>72</li>
                         <li>69</li>
                         <li>63</li>
-                    </ul>   
+                    </ul>
                     <ul>
                         <li>L</li>
                         <li>73.5</li>
                         <li>74.5</li>
                         <li>72</li>
                         <li>64</li>
-                    </ul>   
+                    </ul>
                     <ul>
                         <li>XL</li>
                         <li>75</li>
                         <li>77</li>
                         <li>74.5</li>
                         <li>65</li>
-                    </ul>   
+                    </ul>
                     <ul>
                         <li>XXL</li>
                         <li>76.5</li>
                         <li>79.5</li>
                         <li>77</li>
                         <li>66</li>
-                    </ul>   
-                   
+                    </ul>
+
                 </div>
 
             </div>

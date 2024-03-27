@@ -10,7 +10,7 @@ body {
   margin: 0;
   background-color: #82837d;
   font-family: 'Space Mono';
-  user-select: none; 
+  user-select: none;
 }
 
 header {
@@ -209,6 +209,7 @@ section.one:after {
   position: fixed;
   left: 78%;
 }
+
 .second-black {
   .btn-group-second {
     display: flex;
@@ -216,8 +217,9 @@ section.one:after {
     margin-top: -134px;
     position: fixed;
     left: 78%;
+  }
 }
-}
+
 .btn-group-second-for-hoodie {
   /* display: flex; */
   gap: 10px;
@@ -385,6 +387,7 @@ button.size-btn i {
 .product-vars img:hover {
   filter: drop-shadow(-2px 0 1px #333);
 }
+
 .product-vars-img-for-hoodie:hover {
   filter: drop-shadow(-2px 0 1px #333);
 }
@@ -649,10 +652,12 @@ button.size-btn i {
   left: 62px;
   top: 39px;
 }
+
 .showforuniform {
   left: 62px;
   top: 51px;
 }
+
 ul.collection-dropdown-ul {
   width: 20px;
   position: fixed;
@@ -779,6 +784,7 @@ drop6text.text-drop6-in-navbar {
   margin-left: 1.5%;
   z-index: 99999;
 }
+
 .btngrp-black {
   position: fixed;
   display: flex;
@@ -847,7 +853,8 @@ drop6text.text-drop6-in-navbar {
   list-style: none;
   padding: 10px 0px 0 10px;
 }
-.self-size{
+
+.self-size {
   padding: 10px 10px 0 10px;
 }
 
@@ -879,6 +886,7 @@ drop6text.text-drop6-in-navbar {
   color: black;
   z-index: 1;
 }
+
 .product-details-compo2 {
   display: flex;
   position: absolute;
@@ -1957,18 +1965,22 @@ span.price_sec2 {
   top: 666px;
   left: 75.5%;
 }
+
 .ii-styled-with-title {
   margin-left: 75.5%;
   margin-top: 233px;
 }
+
 .product-vars.product-vars-styled-with-black {
   top: -180px;
   left: 66%;
 }
+
 .product-vars.product-vars-styled-with {
   margin-left: 983px;
   margin-top: -20px;
 }
+
 .item-selected {
   animation: floating 2s ease infinite;
 }
@@ -2000,6 +2012,7 @@ button.active {
   position: relative;
   z-index: 999;
 }
+
 /* .scbg #myDropdown-size {
   top: -342px;
   color: #000;
@@ -2015,7 +2028,10 @@ button.active {
   overflow: hidden;
   animation: typing 10s, cursor .4s step-end infinite alternate;
 }
-.pd, .product-title, .product-price {
+
+.pd,
+.product-title,
+.product-price {
   /* border-right: 5px solid; */
   height: 18px;
   width: 100%;
@@ -2102,17 +2118,21 @@ h1 {
   width: 80%;
   cursor: pointer;
 }
-.uniform-collection-page-container{
+
+.uniform-collection-page-container {
   width: 100%;
 }
+
 .uniform-collection-main-image {
   width: 50%;
   margin: 60px auto 20px;
   position: relative;
 }
+
 img.uniform-main-img {
   width: 100%;
 }
+
 .uniform-items {
   display: flex;
   width: 70%;
@@ -2125,14 +2145,16 @@ img.uniform-main-img {
   animation: fade-in 1s ease forwards;
 }
 
-.unifor-items-image{
+.unifor-items-image {
   min-height: 18vw;
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
 .uniform-items .uniform-items-image.animate img {
   animation: up 3s ease-in-out infinite !important;
 }
+
 .uni-item-i {
   width: 100%;
   display: flex;
@@ -2141,50 +2163,60 @@ img.uniform-main-img {
   height: 250px;
   object-fit: cover;
 }
+
 .uniform-items-image {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
+
 .uniform-p-price {
   text-align: center;
   width: 100%;
   text-transform: uppercase;
 }
+
 @keyframes fade-in {
   0% {
-      opacity: 0
+    opacity: 0
   }
 
   100% {
-      opacity: 1
+    opacity: 1
   }
 }
+
 @keyframes up {
   0% {
-      margin: 0;
+    margin: 0;
   }
 
   50% {
-      margin-top: -8px;
+    margin-top: -8px;
   }
 }
+
 .uniform_hoodie_black_img {
   width: 33%;
   display: flex;
 }
+
 .uniform-parent {
   display: flex;
 }
-.uniform_hoodie_black_img img{
+
+.uniform_hoodie_black_img img {
   width: 450px;
 }
+
 img.product-vars-img-for-hoodie {
   width: 63px;
 }
+
 img.product-vars-img:hover {
   filter: drop-shadow(-2px 0 1px #333);
 }
+
 .product-vars_for_uniform_black_hoodie {
   cursor: pointer;
   transition: margin 0.8s ease;
@@ -2195,6 +2227,7 @@ img.product-vars-img:hover {
   z-index: 9;
   right: 397px;
 }
+
 .btn-group-second-forUniform {
   /* display: flex; */
   gap: 10px;
@@ -2202,6 +2235,7 @@ img.product-vars-img:hover {
   position: fixed;
   left: 77%;
 }
+
 .btn_for_black {
   display: flex;
   margin-top: -692px;
@@ -2210,100 +2244,119 @@ img.product-vars-img:hover {
   margin-left: 1288px;
   box-shadow: none !important;
 }
-.bag-black{
+
+.bag-black {
   margin-left: -100px;
 }
-.home-black{
+
+.home-black {
   background-color: transparent;
 }
+
 .hover_self-1:hover {
   background-image: url("src/img/selfridges/self-hover.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .hover_self-2:hover {
   background-image: url("src/img/selfridges/self-hover2.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .hover_self-3:hover {
   background-image: url("src/img/selfridges/self-hover3.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .hover_self-4:hover {
   background-image: url("src/img/selfridges/self-hover4.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .hover_self-5:hover {
   background-image: url("src/img/selfridges/self-hover5.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .hover_self-6:hover {
   background-image: url("src/img/selfridges/self-hover5.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .hover_self-7:hover {
   background-image: url("src/img/selfridges/self-hover6.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .hover_self-8:hover {
   background-image: url("src/img/selfridges/self-hover6.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .hover_self-9:hover {
   background-image: url("src/img/selfridges/self-hover7.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .hover_self-10:hover {
   background-image: url("src/img/selfridges/self-hover7.webp");
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
 }
-.selfridge-rotate-360-img{
+
+.selfridge-rotate-360-img {
   top: -308px;
   margin-left: 60px;
 }
-.selfridge-drpdwn{
+
+.selfridge-drpdwn {
   top: 41px !important;
 }
+
 .selfridge-bag-btn {
   position: fixed;
   margin-top: 221px;
   margin-left: 0px;
 }
+
 .selfridge-home-btn {
   position: fixed;
   margin-top: 221px;
   margin-left: 110px;
 }
+
 .Size_btn_parent.for-selfbridge-sizes {
   left: 999px;
   top: 329px;
   z-index: 999;
 }
+
 button.size-btn.addtocartbtn.addtocartbtnforself {
   left: 529px;
   top: 79px;
   width: 172%;
   z-index: 999;
 }
+
 .other-colors-selfridge {
   position: relative;
   margin-left: 925px;
@@ -2312,6 +2365,7 @@ button.size-btn.addtocartbtn.addtocartbtnforself {
   top: -134px;
   z-index: -8;
 }
+
 .other-colors-selfridge img {
   width: 75px;
   display: flex;
