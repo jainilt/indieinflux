@@ -2286,12 +2286,12 @@ img.product-vars-img:hover {
 }
 .Size_btn_parent.for-selfbridge-sizes {
   left: 999px;
-  top: 407px;
-  z-index: 9;
+  top: 329px;
+  z-index: 999;
 }
 button.size-btn.addtocartbtn.addtocartbtnforself {
   left: 529px;
-  top: 25px;
+  top: 79px;
   width: 172%;
   z-index: 999;
 }

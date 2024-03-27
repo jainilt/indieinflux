@@ -34,8 +34,8 @@ function Selfridge_rotate_360() {
     {/* <Nav_bar/> */}
     <Product_detail_for_selfridge/>
     <Btn_grp_for_selfridge/>
-    <Other_colors_for_selfridge/>
     <Sizing_chart_drpdwn_for_selfridge/>
+    {/* <Other_colors_for_selfridge/> */}
       <div className='rotate360parent'>
         <div className="rotation-container-360" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <img

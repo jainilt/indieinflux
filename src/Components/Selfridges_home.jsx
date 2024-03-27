@@ -9,6 +9,7 @@ import Product_Detail from './Product_Detail';
 import Human_slider from './Human_slider';
 import Random_compo from './Refine_Click_Dropdown';
 import Drop6_360_Compo from './Drop6_360_Compo';
+import Selfridge_rotate_360 from './Selfridge_rotate_360';
 import Rotate360Degree_black_denim_jacket from './Rotate360Degree_black_denim_jacket';
 function Navigation(){
   return(
@@ -30,7 +31,7 @@ function Navigation(){
       <div className='Drop6Parent'>
         <Link to=""><div className='drop1 hover_self-6'><img className='hide' src='src/img/selfridges/self1 (6).webp' alt=''/></div></Link>
         <Link to=""><div className='drop1 hover_self-7'><img className='hide' src='src/img/selfridges/self1 (7).webp' alt=''/></div></Link>
-        <Link to=""><div className='drop1 hover_self-8'><img className='hide' src='src/img/selfridges/self1 (8).webp' alt=''/></div></Link>
+        <Link to="/Selfridge_rotate_360"><div className='drop1 hover_self-8'><img className='hide' src='src/img/selfridges/self1 (8).webp' alt=''/></div></Link>
         <Link to=""><div className='drop1 hover_self-9'><img className='hide' src='src/img/selfridges/self1 (9).webp' alt=''/></div></Link>
         <Link to=""><div className='drop1 hover_self-10'><img className='hide' src='src/img/selfridges/self1 (10).webp' alt=''/></div></Link>
       </div>
@@ -44,7 +45,7 @@ function Selfridges_home() {
     <>
           <Routes>
             
-            <Route path="/Logo" element={<Drop6_360_Compo />} />
+            <Route path="/Selfridge_rotate_360" element={<Selfridge_rotate_360 />} />
             <Route path="/Rotate360Degree_black_denim_jacket" element={<Rotate360Degree_black_denim_jacket />} />
             <Route path="/Rotate360Degree" element={<Rotate360Degree />} /> 
             <Route
