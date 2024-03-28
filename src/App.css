@@ -2372,3 +2372,9 @@ button.size-btn.addtocartbtn.addtocartbtnforself {
   gap: 48px !important;
   margin: 11px;
 }
+button.ph-bold.ph-arrow-right.brd.chekcout-cart-btn.cart-forgsap{
+  background-color: #fff;
+}
+.hline:hover{
+  cursor: pointer;
+}
