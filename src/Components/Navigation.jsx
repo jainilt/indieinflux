@@ -23,38 +23,38 @@ function Navigation(){
 
       <div className='Drop6Parent'>
         <Link to="/Drop6_360_Compo"><div className='drop1 hover_jacket_reveal '><img className='hide' src='src/img/download (1).png' alt=''/></div></Link>
-        <Link to="/Rotate360Degree_black_denim_jacket"><div className='drop1 hover_jacket_reveal2'><img className='hide vg' src='src/img/download (2).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal3'><img className='hide' src='src/img/download (3).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal4'><img className='hide' src='src/img/download (4).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal5'><img className='hide' src='src/img/download (5).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal2'><img className='hide vg' src='src/img/download (2).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal3'><img className='hide' src='src/img/download (3).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal4'><img className='hide' src='src/img/download (4).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal5'><img className='hide' src='src/img/download (5).png' alt=''/></div></Link>
       </div>
       <div className='Drop6Parent'>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal6'><img className='hide' src='src/img/download (6).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal7'><img className='hide' src='src/img/download (7).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal8'><img className='hide' src='src/img/download (10).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal9'><img className='hide' src='src/img/download (11).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal10'><img className='hide' src='src/img/download (12).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal6'><img className='hide' src='src/img/download (6).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal7'><img className='hide' src='src/img/download (7).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal8'><img className='hide' src='src/img/download (10).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal9'><img className='hide' src='src/img/download (11).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal10'><img className='hide' src='src/img/download (12).png' alt=''/></div></Link>
       </div>
       <div className='Drop6Parent'>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal11'><img className='hide' src='src/img/download (13).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal12'><img className='hide' src='src/img/download (14).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal13'><img className='hide' src='src/img/download (15).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal14'><img className='hide' src='src/img/download (16).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal15'><img className='hide' src='src/img/download (17).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal11'><img className='hide' src='src/img/download (13).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal12'><img className='hide' src='src/img/download (14).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal13'><img className='hide' src='src/img/download (15).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal14'><img className='hide' src='src/img/download (16).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal15'><img className='hide' src='src/img/download (17).png' alt=''/></div></Link>
       </div>
       <div className='Drop6Parent'>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal16'><img className='hide' src='src/img/download (19).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal17'><img className='hide' src='src/img/download (20).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal18'><img className='hide' src='src/img/download (22).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal19'><img className='hide' src='src/img/download (23).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal20'><img className='hide' src='src/img/download (24).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal16'><img className='hide' src='src/img/download (19).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal17'><img className='hide' src='src/img/download (20).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal18'><img className='hide' src='src/img/download (22).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal19'><img className='hide' src='src/img/download (23).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal20'><img className='hide' src='src/img/download (24).png' alt=''/></div></Link>
       </div>
       <div className='Drop6Parent'>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal21'><img className='hide' src='src/img/download (25).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal22'><img className='hide' src='src/img/download (26).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal23'><img className='hide' src='src/img/download (27).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal24'><img className='hide' src='src/img/download (28).png' alt=''/></div></Link>
-        <Link to="/Logo"><div className='drop1 hover_jacket_reveal25'><img className='hide' src='src/img/download (29).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal21'><img className='hide' src='src/img/download (25).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal22'><img className='hide' src='src/img/download (26).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal23'><img className='hide' src='src/img/download (27).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal24'><img className='hide' src='src/img/download (28).png' alt=''/></div></Link>
+        <Link to=""><div className='drop1 hover_jacket_reveal25'><img className='hide' src='src/img/download (29).png' alt=''/></div></Link>
       </div>
       {/* <Refine_Click_Dropdown/> */}
     {/* <Logo/> */}
