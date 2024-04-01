@@ -15,14 +15,12 @@ function Black_denim_jacket_component() {
       <div>
         <Nav_bar/>
         <Rotate360Degree_black_denim_jacket/>
-        {/* <Product_Detail/> */}
         <div className='btn-grp-drop-360-compo'>
       <Btn_grp_for_black_denim/>
       </div>
 
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <Human_slider_for_black/>
-        {/* <Styled_With_black/> */}
       </div>
         </>
     )
