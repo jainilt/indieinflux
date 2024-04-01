@@ -74,16 +74,12 @@ function Cart() {
                 <div className="btn-group-second1">
                     <button className="ph-bold ph-arrow-left brd back-cart" onClick={handleBackClick}> Back</button>
                     <button className="brd browse-cart" onClick={handleBackClick2}> Browse</button>
-                    {/* <button className=""></button> */}
-                    {/* <button className="cartbag">Bag</button> */}
                     <br />
-                    {/* <Sizing_chart_Btn_grp/> */}
                 </div>
                 <div className="parent-cart-all">
                     <div className="item-section-parent">
                         <div className="item-section-items">
                             <div className="cart-header">
-                                {/* <div className="cart-images"></div> */}
                                 <div className="cart-products">Product</div>
                                 <div className="cart-price">Price</div>
                                 <div className="cart-quantity">Quantity</div>
