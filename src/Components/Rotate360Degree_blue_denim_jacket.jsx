@@ -26,7 +26,6 @@ function Rotate360Degree() {
 
   return (
     <>
-    {/* <Nav_bar/> */}
       <div className='rotate360parent'>
         <div className="rotation-container-360" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <img
