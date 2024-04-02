@@ -14,12 +14,9 @@ function Navigation() {
     </div>
     
     <div className="btn-group-second btn-group-second-forUniform">
-      {/* <button className='btn1 ph-bold ph-currency-inr brd inr'>Inr</button> */}
-      {/* <Random_compo/> */}
     <Link to="/Cart"><button className='btn1 ph-bold brd collection-left bagbtnforuniform'>Bag</button></Link>
     <Link to="/"><button className='btn1 ph-bold brd homebtn homebtnforuniform'>Home</button></Link>
       <br />
-      {/* <Sizing_chart_Btn_grp/> */}
     </div>
   </div>
 </div>
