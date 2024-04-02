@@ -2074,6 +2074,9 @@ button.active {
 .homebtn {
   margin-left: 109px;
 }
+.homebtnforuniform{
+  margin-left: 123px;
+}
 
 .homebtnarchive {
   margin-left: 21px;
@@ -2231,7 +2234,7 @@ img.product-vars-img:hover {
 .btn-group-second-forUniform {
   /* display: flex; */
   gap: 10px;
-  margin-top: -59px;
+  margin-top: 3px;
   position: fixed;
   left: 77%;
 }
@@ -2336,6 +2339,7 @@ img.product-vars-img:hover {
   position: fixed;
   margin-top: 221px;
   margin-left: 0px;
+  background-color: #a3a49f !important;
 }
 
 .selfridge-home-btn {
@@ -2377,4 +2381,7 @@ button.ph-bold.ph-arrow-right.brd.chekcout-cart-btn.cart-forgsap{
 }
 .hline:hover{
   cursor: pointer;
+}
+.bagbtnforuniform {
+  margin-left: 19px;
 }
