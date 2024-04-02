@@ -8,9 +8,6 @@ import Sizing_dropdown_for_black_denim from './Sizing_dropdown_for_black_denim';
 function Navigation() {
   return (
     <>
-    
-    {/* <div className='scbg'><Sizing_chart_Btn_grp /></div>
-    <Sizing_dropdown_for_black_denim/> */}
 
 <div>
   <Nav_bar/>
@@ -20,12 +17,10 @@ function Navigation() {
     </div>
     
     <div className="btn-group-second">
-      {/* <button className='btn1 ph-bold ph-currency-inr brd inr'>Inr</button> */}
       <Random_compo/>
     <Link to="/Cart"><button className='btn1 ph-bold brd selfridge-bag-btn'>Bag</button></Link>
     <Link to="/"><button className='btn1 ph-bold brd selfridge-home-btn'>Home</button></Link>
       <br />
-      {/* <Sizing_chart_Btn_grp/> */}
     </div>
   </div>
 </div>
