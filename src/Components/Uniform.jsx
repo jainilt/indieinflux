@@ -11,8 +11,8 @@ function Navigation() {
       <>
             
             <div>
-                <Nav_bar />
                 <Btn_grp_for_Uniform/>
+                <Nav_bar />
                 <Collection_dropdown_for_Uniform/>
                 <div className='uniform-collection-page-container'>
                     <div className='uniform-collection-main-image'>
