@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from 'react-router-dom'; // Import useNavigate from 'react-router-dom' instead of useHistory
+import { useNavigate } from 'react-router-dom'; 
 import Btn_grp from "./Btn_grp";
 import Sizing_chart_Btn_grp from "./Sizing_chart_Btn_grp";
 import Logo from "./Logo";
@@ -9,13 +9,13 @@ import { TextPlugin } from 'gsap/all';
 import SplitType from 'split-type'
 
 function Cart() {
-    const navigate = useNavigate(); // Use useNavigate hook to get the navigation function
+    const navigate = useNavigate(); 
     
     const handleBackClick = () => {
-        navigate(-1); // This will navigate back to the previous page
+        navigate(-1);
     };
     const handleBackClick2 = () => {
-        navigate(-1); // This will navigate back to the previous page
+        navigate(-1); 
     };
     useGSAP(() => {
     
