@@ -901,6 +901,7 @@ drop6text.text-drop6-in-navbar {
   top: 159%;
   position: absolute;
   width: 450px;
+  font-size: 14px;
 }
 
 .collection-left {
@@ -1024,7 +1025,7 @@ drop6text.text-drop6-in-navbar {
 }
 
 .addtocartbtn {
-  top: -140px;
+  top: -180px;
   left: 99px;
 }
 
@@ -1966,7 +1967,7 @@ span.price_sec2 {
 
 .ii-styled-with-title-black {
   position: absolute;
-  top: 666px;
+  top: 621px;
   left: 75.5%;
 }
 
@@ -2043,6 +2044,7 @@ button.active {
   overflow: hidden;
   animation: typing 10s, cursor .4s step-end infinite alternate;
   margin: 7px 0;
+  font-size: 14px;
 }
 
 
@@ -2254,10 +2256,15 @@ img.product-vars-img:hover {
 
 .bag-black {
   margin-left: -100px;
+  margin-top: 62px;
+  /* position: relative; */
+  /* z-index: 9999999; */
 }
 
 .home-black {
   background-color: transparent;
+  margin-left: 6px;
+  margin-top: 62px;
 }
 
 .hover_self-1:hover {
