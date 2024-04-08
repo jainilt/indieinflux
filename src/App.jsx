@@ -47,6 +47,7 @@ import Size_btn_for_selfridge from './Components/Size_btn_for_selfridge';
 import Other_colors_for_selfridge from './Components/Other_colors_for_selfridge';
 import Selfridge_rotate_360_white from './Components/Selfridge_rotate_360_white';
 import SR_pink_tee_1st from './Components/SR_pink_tee_1st';
+import Admin from './Components/Admin';
 function App() {
 
   return (
@@ -54,6 +55,7 @@ function App() {
       <Router>
         {/* <Human_slider_for_black/> */}
         <Navigation_btns />
+        {/* <Admin/> */}
         {/* <SR_pink_tee_1st/> */}
         {/* <Selfridge_rotate_360_white/> */}
         {/* <Other_colors_for_selfridge/> */}

@@ -22,6 +22,7 @@ import Uniform from './Uniform'
 import Uniform_hoodie_brown from './Uniform_hoodie_brown'
 import Uniform_hoodie_black from './Uniform_hoodie_black'
 import Selfridges_home from './Selfridges_home'
+import Admin from './Admin'
 import Selfridge_rotate_360 from './Selfridge_rotate_360'
 function Navigation() {
   return (
@@ -41,6 +42,7 @@ function Navigation() {
           {/* <Link className='nav1' to="/Product_Detail"><Button variant="secondary">Product_Detail</Button></Link> */}
           <Link className='nav1' to="/Hover_Images"><Button variant="secondary">Upcoming</Button></Link>
           <Link className='nav1' to="/Signup"><Button variant="secondary">Login</Button></Link>
+          <Link className='nav1' to="/Admin"><Button variant="secondary">Admin</Button></Link>
           {/* <Link className='nav1' to="/Selfridge_rotate_360"><Button variant="secondary">Login</Button></Link> */}
           {/* <Link className='nav1' to="/Uniform_hoodie_brown"><Button variant="secondary">UniformBrown</Button></Link> */}
           {/* <Link className='nav1' to="/Uniform_hoodie_black"><Button variant="secondary">UniformBlack</Button></Link> */}
@@ -71,6 +73,7 @@ function Navigation_btns() {
             {/* <Route path="/Other_colors" element={<Other_colors />} /> */}
             <Route path="/Drop6_360_Compo" element={<Drop6_360_Compo />} />
             <Route path="/Cart" element={<Cart />} />
+            <Route path="/Admin" element={<Admin />} />
             <Route path="/Selfridges_home" element={<Selfridges_home />} />
             <Route path="/Selfridge_rotate_360" element={<Selfridge_rotate_360 />} />
             <Route path="/*" element={<Navigation/>} />

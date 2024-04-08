@@ -112,5 +112,6 @@ body {
   }
 .card:hover .character {
 	opacity: 1;
-	transform: translate3d(0%, -15%, 0px );
+	/* transform: translate3d(0%, -15%, 0px ); */
+	transform: perspective(900px) translateY(-8%) rotateX(-10deg) translateZ(0);
 }
