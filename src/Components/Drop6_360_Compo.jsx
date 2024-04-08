@@ -11,17 +11,17 @@ import Nav_bar from './Nav_bar';
 function Drop6_360_Compo() {
   return (
     <div>
-      <Nav_bar/>
-      <Rotate360Degree/>
+      <Nav_bar />
+      <Rotate360Degree />
       <div className='btn-grp-drop-360-compo'>
-      <Btn_grp/>
+        <Btn_grp />
       </div>
-    <Styled_With/>
-      <Product_Detail/>
-    <Human_slider/>
+      <Styled_With />
+      <Product_Detail />
+      <Human_slider />
 
-      
-      
+
+
     </div>
   )
 }
