@@ -53,8 +53,8 @@ function App() {
   return (
     <>
       <Router>
-        {/* <Human_slider_for_black/> */}
         <Navigation_btns />
+        {/* <Human_slider_for_black/> */}
         {/* <Admin/> */}
         {/* <SR_pink_tee_1st/> */}
         {/* <Selfridge_rotate_360_white/> */}
@@ -75,7 +75,7 @@ function App() {
         {/* <Logo/> */}
         {/* <Main_home_Nav_Btn/> */}
         {/* <Nav_bar/> */}
-        {/* <Drop6_home/>                        */}
+        {/* <Drop6_home/>*/}
         {/* <Other_colors /> */}
         {/* <Other_products/> */}
         {/* <Product_Detail/> */}
